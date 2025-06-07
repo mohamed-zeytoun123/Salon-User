@@ -19,7 +19,6 @@ class InputPhoneNumberWidget extends StatelessWidget {
       width: double.infinity,
       child: PhoneFormField(
         controller: controller,
-        // defaultCountry: IsoCode.SA,
         decoration: TextFormFieldStyle.formOne(
           "323 4323 1",
           FontsStyle.white14w400.copyWith(color: Color(0XFF50555C)),
@@ -27,6 +26,12 @@ class InputPhoneNumberWidget extends StatelessWidget {
           prefixIcon: Icon(Icons.call, color: Colors.grey),
         ),
         enabled: true,
+        validator: (PhoneNumber? value) {
+          if (value == null || !value.isValid()) {
+            return "Please enter a valid phone number !";
+          }
+          return null;
+        },
       ),
     );
   }

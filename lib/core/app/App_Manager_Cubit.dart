@@ -11,13 +11,14 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 class AppManagerCubit extends Cubit<AppManagerState> {
   AppManagerCubit() : super(AppManagerState());
+  //!________ save User Data In App State______________________________________________________________________________
 
   saveUserDataInAppState(AuthResponseModel model) {
     _saveAuthModelInCache(model);
     emit(state.copyWith(authResponseModel: model));
   }
 
-  //!______________________________________________________________________________________
+  //!________ init App ______________________________________________________________________________
   initApp() async {
     log('init app');
 
@@ -28,7 +29,7 @@ class AppManagerCubit extends Cubit<AppManagerState> {
     }
   }
 
-//!______________________________________________________________________________________
+//!_______________save Auth Model In Cache________________________________________________________________________
   _saveAuthModelInCache(AuthResponseModel authData) async {
     final storage = FlutterSecureStorage();
 
@@ -36,7 +37,7 @@ class AppManagerCubit extends Cubit<AppManagerState> {
 
     await storage.write(key: CacheKeys.userData, value: encodedData);
   }
-  //!______________________________________________________________________________________
+  //!_____________get User Data__________________________________________________________________________
 
   Future<AuthResponseModel?> _getUserData() async {
     final storage = FlutterSecureStorage();
@@ -48,6 +49,9 @@ class AppManagerCubit extends Cubit<AppManagerState> {
     }
     return null;
   }
+
+  //!______________________________________________________________________________________
+  //!______________________________________________________________________________________
   //!______________________________________________________________________________________
   //!______________________________________________________________________________________
 }

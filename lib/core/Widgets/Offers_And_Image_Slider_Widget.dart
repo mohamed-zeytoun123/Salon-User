@@ -4,7 +4,6 @@ import 'package:app2/core/Widgets/shimmer%20Slider%20Placeholder/shimmer_slider_
 import 'package:app2/core/style/Fonts_style.dart';
 import 'package:app2/featchers/Home/presentation/manager/home_cubit.dart';
 import 'package:app2/featchers/Home/presentation/manager/home_state.dart';
-import 'package:app2/featchers/Home/presentation/pages/Services_Details_Page.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Image_slider_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

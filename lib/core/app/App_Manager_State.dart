@@ -7,7 +7,9 @@ class AppManagerState {
   bool isDarkMode = false;
   final bool isLogOutSuccess;
   final AuthResponseModel? authResponseModel;
+  final String? myLocation;
   AppManagerState({
+    this.myLocation,
     this.isDarkMode = false,
     this.isLogOutSuccess = false,
     this.authResponseModel,
@@ -17,10 +19,12 @@ class AppManagerState {
     bool? isDarkMode,
     bool? isLogOutSuccess,
     AuthResponseModel? authResponseModel,
+    String? myLocation,
   }) {
     return AppManagerState(
+      myLocation: myLocation ?? this.myLocation,
       isDarkMode: isDarkMode ?? this.isDarkMode,
-      isLogOutSuccess: isLogOutSuccess ?? false,
+      isLogOutSuccess: isLogOutSuccess ?? this.isLogOutSuccess,
       authResponseModel: authResponseModel ?? this.authResponseModel,
     );
   }

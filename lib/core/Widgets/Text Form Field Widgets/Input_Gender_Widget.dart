@@ -27,7 +27,8 @@ class InputGenderWidget extends StatelessWidget {
           SizedBox(
             height: 65,
             child: DropdownButtonFormField<TypeGenderEnum>(
-              decoration: TextFormFieldStyle.formOne("Female",
+              value: selectedGender,
+              decoration: TextFormFieldStyle.formOne("Select Gender",
                       FontsStyle.white14w400.copyWith(color: Color(0XFF50555C)))
                   .copyWith(),
               validator: (value) {
