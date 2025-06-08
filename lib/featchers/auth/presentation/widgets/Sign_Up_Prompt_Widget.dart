@@ -3,7 +3,7 @@
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
 import 'package:app2/core/style/Fonts_style.dart';
 import 'package:app2/featchers/auth/presentation/manager/auth_cubit.dart';
-import 'package:app2/featchers/auth/presentation/pages/Create_new_account_page.dart';
+import 'package:app2/featchers/auth/presentation/pages/create_new_account_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

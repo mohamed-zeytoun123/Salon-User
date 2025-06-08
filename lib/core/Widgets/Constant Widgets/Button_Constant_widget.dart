@@ -8,7 +8,8 @@ import 'package:app2/featchers/Home/presentation/widgets/Custom_Container_widget
 import 'package:flutter/material.dart';
 
 class ButtonConstantWidget {
-  static Widget customContainerServices(BuildContext context, int serviceCount) {
+  static Widget customContainerServices(
+      BuildContext context, int serviceCount) {
     return CustomContainerWidget(
       imagePath: IconsUrl.vector,
       title: "Services",
@@ -33,6 +34,7 @@ class ButtonConstantWidget {
       icon: Icons.arrow_forward_ios,
       onTap: () {
         log("Product");
+
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => AllProductPage()),
@@ -41,3 +43,6 @@ class ButtonConstantWidget {
     );
   }
 }
+
+  //  context.push(RoutesPath.servicesCategory);
+  //          context.push(RoutesPath.allProduct);

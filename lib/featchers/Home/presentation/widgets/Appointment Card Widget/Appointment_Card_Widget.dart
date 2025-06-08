@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:app2/core/Widgets/Appointment%20Card%20Widget/Body_Appointment_Card_Widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/Body_Appointment_Card_Widget.dart';
 import 'package:app2/core/colors/Background_color_pages.dart';
 import 'package:app2/core/model/Body%20Appointment%20Card%20Model/Body_Appointment_Card_Model.dart';
 import 'package:flutter/material.dart';

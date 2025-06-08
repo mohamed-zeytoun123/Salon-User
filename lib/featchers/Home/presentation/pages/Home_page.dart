@@ -1,13 +1,13 @@
 // ignore_for_file: file_names
 
-import 'package:app2/core/Widgets/Appointment%20Card%20Widget/Upcoming_Appointment_Card_widget.dart';
-import 'package:app2/core/Widgets/Home_Services_Providers_Widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/Upcoming_Appointment_Card_widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Home_Services_Providers_Widget.dart';
 import 'package:app2/core/Widgets/Nearest_Suppliers_Widget.dart';
-import 'package:app2/core/Widgets/Offers_And_Image_Slider_Widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Offers_And_Image_Slider_Widget.dart';
 import 'package:app2/core/Widgets/Row_Search_Filter_widget.dart';
-import 'package:app2/core/Widgets/Service_Product_Explore_Widget.dart';
-import 'package:app2/core/Widgets/Services_Section_Widget.dart';
-import 'package:app2/core/Widgets/Suggested_Products_Widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Service_Product_Explore_Widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Services_Section_Widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Suggested_Products_Widget.dart';
 import 'package:app2/core/app/App_Manager_Cubit.dart';
 import 'package:app2/core/app/App_Manager_State.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Top_Suppliers_Widget.dart';
@@ -41,11 +41,11 @@ class HomePage extends StatelessWidget {
         title: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 10),
           child: BlocBuilder<AppManagerCubit, AppManagerState>(
-              builder: (context, state) {
-            final userName = state.authResponseModel?.user.name ?? "User Name";
+              builder: (context, appState) {
+            final userName =
+                appState.authResponseModel?.user.name ?? "User Name";
             return Text(
               userName,
-              // "User Name",
               overflow: TextOverflow.ellipsis,
               style: FontsStyle.c28w400Meditative,
             );

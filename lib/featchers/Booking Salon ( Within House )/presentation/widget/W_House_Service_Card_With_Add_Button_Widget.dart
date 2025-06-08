@@ -3,7 +3,7 @@
 import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/widget/W_House_Add_Product_Widget.dart';
 import 'package:flutter/material.dart';
 import 'package:app2/core/model/Body%20Appointment%20Card%20Model/Service_Info_model.dart';
-import 'package:app2/core/Widgets/Appointment%20Card%20Widget/BodyAppointmentCardWidget/Service_Info_Row_Widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/BodyAppointmentCardWidget/Service_Info_Row_Widget.dart';
 import 'package:app2/core/colors/Colors_Faces.dart';
 
 class WHouseServiceCardWithAddButtonWidget extends StatelessWidget {

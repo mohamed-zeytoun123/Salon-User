@@ -89,10 +89,12 @@ class OtpNewNumberPage extends StatelessWidget {
                                       hight: 46,
                                       label: "Confirm",
                                       onPressed: () {
+                                        // context.go(RoutesPath.homeContent);
                                         Navigator.pushAndRemoveUntil(
                                           context,
                                           MaterialPageRoute(
-                                              builder: (context) => HomeContentPage()),
+                                              builder: (context) =>
+                                                  HomeContentPage()),
                                           (route) => false,
                                         );
                                       }),

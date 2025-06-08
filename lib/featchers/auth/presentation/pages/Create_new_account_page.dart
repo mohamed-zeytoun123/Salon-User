@@ -3,6 +3,7 @@
 import 'dart:developer';
 
 import 'package:app2/core/app/App_Manager_Cubit.dart';
+import 'package:app2/core/routes/routes_path.dart';
 import 'package:app2/core/style/App_Snack_Bar.dart';
 import 'package:app2/featchers/Home/presentation/pages/Home_Content_Page.dart';
 import 'package:app2/featchers/auth/presentation/manager/auth_cubit.dart';
@@ -13,6 +14,7 @@ import 'package:flutter/material.dart';
 import 'package:app2/core/colors/Background_color_pages.dart';
 import 'package:app2/core/Widgets/Bottom%20Sheet%20Widgets/Bottom_Sheet_Widget.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
 import 'package:phone_form_field/phone_form_field.dart';
 
 class CreateNewAccountPage extends StatelessWidget {
@@ -53,6 +55,7 @@ class CreateNewAccountPage extends StatelessWidget {
             BlocProvider.of<AppManagerCubit>(context)
                 .saveUserDataInAppState(state.authResponseModel!);
           }
+          // context.go(RoutesPath.home, extra: BlocProvider.of<AuthCubit>(context));
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(

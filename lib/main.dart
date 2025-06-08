@@ -1,7 +1,7 @@
 // ignore_for_file: unused_import
 import 'dart:developer';
 import 'dart:ffi';
-import 'package:app2/ImagePickerExample.dart';
+
 import 'package:app2/core/app/App_Manager_Cubit.dart';
 import 'package:app2/core/app/App_Manager_State.dart';
 import 'package:app2/core/colors/Colors_Faces.dart';
@@ -54,7 +54,7 @@ import 'package:app2/featchers/Profile/presentation/pages/Payment_page.dart';
 import 'package:app2/featchers/Profile/presentation/pages/Privacy_Poicy_Page.dart';
 import 'package:app2/featchers/Profile/presentation/pages/Rating_Order_Page.dart';
 import 'package:app2/featchers/auth/presentation/pages/Change_password_page.dart';
-import 'package:app2/featchers/auth/presentation/pages/Create_new_account_page.dart';
+import 'package:app2/featchers/auth/presentation/pages/create_new_account_page.dart';
 import 'package:app2/featchers/auth/presentation/pages/Logo_Page.dart';
 import 'package:app2/featchers/auth/presentation/pages/Login_Page.dart';
 import 'package:app2/featchers/auth/presentation/pages/OTP_Number_page.dart';

@@ -31,6 +31,7 @@ class GuestJoinLinkWidget extends StatelessWidget {
             MaterialPageRoute(builder: (_) => HomeContentPage()),
             (route) => false,
           );
+          //  context.go(RoutesPath.homeContent);
           log("Join as a Guest");
         },
       ),

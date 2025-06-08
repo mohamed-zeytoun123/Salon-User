@@ -54,6 +54,7 @@ class TopSuppliersPage extends StatelessWidget {
                                 MaterialPageRoute(
                                     builder: (context) => NearSuppliersPage()));
                           },
+                          //  context.push(RoutesPath.nearSuppliers);
                           child: CosmeticCardWidget(
                             branch: state.listTopsSalon![index],
                             item: DummyData.cosmeticProvidersListDUMMY[index],

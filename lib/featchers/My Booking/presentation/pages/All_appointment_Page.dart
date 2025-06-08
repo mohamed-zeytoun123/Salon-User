@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:app2/core/Widgets/Appointment%20Card%20Widget/Appointment_Card_Widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/Appointment_Card_Widget.dart';
 import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
 import 'package:app2/core/colors/Colors_Faces.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';

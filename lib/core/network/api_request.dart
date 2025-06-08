@@ -4,7 +4,6 @@ class ApiRequest {
   final Map<String, dynamic>? body;
   ApiRequest({
     required this.url,
-    
-     this.body,
+    this.body,
   });
 }
