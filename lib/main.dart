@@ -2,7 +2,7 @@
 import 'dart:developer';
 import 'dart:ffi';
 
-import 'package:app2/core/app/App_Manager_Cubit.dart';
+import 'package:app2/core/app/app_manager_cubit.dart';
 import 'package:app2/core/app/App_Manager_State.dart';
 import 'package:app2/core/colors/Colors_Faces.dart';
 import 'package:app2/core/network/dependency_Injection.dart';

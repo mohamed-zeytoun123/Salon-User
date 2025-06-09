@@ -8,7 +8,7 @@ import 'package:app2/core/Widgets/Row_Search_Filter_widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Service_Product_Explore_Widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Services_Section_Widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Suggested_Products_Widget.dart';
-import 'package:app2/core/app/App_Manager_Cubit.dart';
+import 'package:app2/core/app/app_manager_cubit.dart';
 import 'package:app2/core/app/App_Manager_State.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Top_Suppliers_Widget.dart';
 import 'package:app2/core/colors/Colors_Faces.dart';

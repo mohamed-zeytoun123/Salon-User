@@ -10,7 +10,7 @@ import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_Email_Widg
 import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_Gender_Widget.dart';
 import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_Name_Widget.dart';
 import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_Phone_Number_Widget.dart';
-import 'package:app2/core/app/App_Manager_Cubit.dart';
+import 'package:app2/core/app/app_manager_cubit.dart';
 import 'package:app2/core/app/App_Manager_State.dart';
 import 'package:app2/featchers/Profile/presentation/manager/Type_Gender_Enum.dart';
 import 'package:app2/featchers/Profile/presentation/widgets/Label_Form_Widget.dart';

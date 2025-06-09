@@ -24,9 +24,9 @@ import 'package:app2/featchers/Home/data/model/provider_model.dart';
 import 'package:app2/featchers/Home/data/model/region_model.dart';
 import 'package:app2/featchers/My%20Booking/data/model/Service_Card_Model.dart';
 import 'package:app2/featchers/Notification/data/model/Notification_Item_model.dart';
-import 'package:app2/featchers/Profile/data/model/Order_Canceled_Model.dart';
-import 'package:app2/featchers/Profile/data/model/Order_Complete_Model.dart';
-import 'package:app2/featchers/Profile/data/model/Order_Pending_Model.dart';
+import 'package:app2/featchers/Profile/data/model/order_canceled_model_dummy.dart';
+import 'package:app2/featchers/Profile/data/model/order_complete_model_dummy.dart';
+import 'package:app2/featchers/Profile/data/model/order_pending_model_dummy.dart';
 import 'package:app2/featchers/auth/data/models/user_model.dart';
 
 class DummyData {

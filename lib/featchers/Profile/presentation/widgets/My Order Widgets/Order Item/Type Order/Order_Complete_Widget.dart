@@ -5,7 +5,7 @@ import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widge
 import 'package:app2/core/model/Booking_Date_Model.dart';
 import 'package:app2/core/style/Fonts_style.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Rating_stars_widget.dart';
-import 'package:app2/featchers/Profile/data/model/Order_Complete_Model.dart';
+import 'package:app2/featchers/Profile/data/model/order_complete_model_dummy.dart';
 import 'package:app2/featchers/Profile/presentation/pages/Rating_Order_Page.dart';
 import 'package:app2/featchers/Profile/presentation/widgets/My%20Order%20Widgets/Order%20Item/Form_Order_Widget.dart';
 import 'package:flutter/material.dart';
