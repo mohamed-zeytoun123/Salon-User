@@ -1,9 +1,9 @@
 // ignore_for_file: file_names
 
-import 'package:app2/featchers/Booking%20Freelance/data/model/Service_Item_buy_Model.dart';
+import 'package:app2/featchers/Booking%20Freelance/data/model/service_item_buy_model_dummy.dart';
 import 'package:app2/featchers/Booking%20Freelance/presentation/widget/Service_Item_With_Price_Tile_Widget.dart';
 import 'package:flutter/material.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 
 class ExpandableServicePriceTile extends StatefulWidget {
   const ExpandableServicePriceTile({

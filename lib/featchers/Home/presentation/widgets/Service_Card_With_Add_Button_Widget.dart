@@ -1,10 +1,10 @@
 // ignore_for_file: file_names
 
-import 'package:app2/featchers/Home/presentation/widgets/Add_Product_Widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/add_product_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:app2/core/model/Body%20Appointment%20Card%20Model/Service_Info_model.dart';
+import 'package:app2/core/model/Body%20Appointment%20Card%20Model/service_info_model_dummy.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/BodyAppointmentCardWidget/Service_Info_Row_Widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 
 class ServiceCardWithAddButtonWidget extends StatelessWidget {
   const ServiceCardWithAddButtonWidget({

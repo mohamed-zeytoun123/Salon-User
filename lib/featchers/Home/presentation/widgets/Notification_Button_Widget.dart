@@ -2,7 +2,7 @@
 
 import 'dart:developer';
 
-import 'package:app2/featchers/Notification/Presentation/Notification_Page.dart';
+import 'package:app2/featchers/Notification/Presentation/pages/Notification_Page.dart';
 import 'package:flutter/material.dart';
 
 class NotificationButtonWidget extends StatelessWidget {

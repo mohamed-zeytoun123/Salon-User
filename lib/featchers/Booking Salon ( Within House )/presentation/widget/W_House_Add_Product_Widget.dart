@@ -2,10 +2,10 @@
 
 import 'dart:developer';
 
-import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/page/W_House_Booking_An_Appointment_Product_Page.dart';
+import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/page/w_house_booking_an_appointment_product_page.dart';
 import 'package:app2/featchers/Home/data/model/Add_Service_Model.dart';
 import 'package:flutter/material.dart';
-import 'package:app2/core/model/Body Appointment Card Model/Service_Info_model.dart';
+import 'package:app2/core/model/Body%20Appointment%20Card%20Model/service_info_model_dummy.dart';
 
 class WHouseAddProductWidget extends StatelessWidget {
   const WHouseAddProductWidget({super.key, required this.model});

@@ -1,5 +1,5 @@
 // ignore_for_file: library_private_types_in_public_api, file_names
-import 'package:app2/core/Widgets/Bottom%20Sheet%20Widgets/Bottom_Sheet_Widget.dart';
+import 'package:app2/core/Widgets/Bottom%20Sheet%20Widgets/bottom_sheet_widget.dart';
 import 'package:app2/core/colors/Background_color_pages.dart';
 import 'package:app2/featchers/auth/presentation/widgets/Change_Password_Header_Widget.dart';
 import 'package:app2/featchers/auth/presentation/widgets/Password_Action_Widget.dart';

@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 import 'dart:developer';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/All/presentation/widget/Get_Rating_Stars_Widget.dart';
 import 'package:flutter/material.dart';
 

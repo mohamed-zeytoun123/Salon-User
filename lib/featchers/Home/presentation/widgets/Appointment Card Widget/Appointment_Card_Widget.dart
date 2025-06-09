@@ -2,7 +2,7 @@
 
 import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/Body_Appointment_Card_Widget.dart';
 import 'package:app2/core/colors/Background_color_pages.dart';
-import 'package:app2/core/model/Body%20Appointment%20Card%20Model/Body_Appointment_Card_Model.dart';
+import 'package:app2/core/model/Body%20Appointment%20Card%20Model/body_appointment_card_model_dummy.dart';
 import 'package:flutter/material.dart';
 
 class AppointmentCardWidget extends StatelessWidget {

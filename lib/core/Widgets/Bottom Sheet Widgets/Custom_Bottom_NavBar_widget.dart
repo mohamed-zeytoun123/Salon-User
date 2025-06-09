@@ -1,12 +1,12 @@
 // ignore_for_file: file_names
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:flutter/material.dart';
 
-class CustomBottomNavBar extends StatelessWidget {
+class CustomBottomNavBarWidget extends StatelessWidget {
   final int currentIndex;
   final Function(int) onTabTapped;
 
-  const CustomBottomNavBar({
+  const CustomBottomNavBarWidget({
     super.key,
     required this.currentIndex,
     required this.onTabTapped,

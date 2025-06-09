@@ -1,8 +1,8 @@
 // ignore_for_file: file_names, deprecated_member_use
 
 import 'package:app2/core/assets/icons_url.dart';
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Cart/data/model/Point_Reward_Item_Model.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Cart/data/model/point_reward_item_model.dart';
 import 'package:flutter/material.dart';
 
 class CosmeticItemCardPointWidget extends StatelessWidget {

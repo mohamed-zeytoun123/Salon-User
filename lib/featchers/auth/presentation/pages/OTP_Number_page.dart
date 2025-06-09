@@ -4,10 +4,10 @@ import 'package:app2/featchers/auth/presentation/pages/Change_password_page.dart
 import 'package:app2/core/Widgets/Bottom%20Sheet%20Widgets/Bottom_Sheet_Widget.dart';
 import 'package:app2/featchers/auth/presentation/widgets/OTP_Instructions_Widget.dart';
 import 'package:app2/featchers/auth/presentation/widgets/Otp_Input_widget.dart';
-import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_colormain_widget.dart';
+import 'package:app2/core/Widgets/Form%20Button%20Widget/text_button_color_main_widget.dart';
 import 'package:app2/featchers/auth/presentation/widgets/count_down_Timer_widget.dart';
-import 'package:app2/core/colors/Background_color_pages.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/colors/background_color_pages.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:flutter/material.dart';
 
 class OtpNumberPage extends StatelessWidget {

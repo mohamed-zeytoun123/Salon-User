@@ -1,6 +1,6 @@
 // ignore_for_file: file_names, deprecated_member_use
 import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Home/presentation/manager/class_search_admin.dart';
+import 'package:app2/featchers/Home/presentation/manager/search.dart';
 import 'package:flutter/material.dart';
 
 class ButtonSearchWidget extends StatefulWidget {

@@ -3,8 +3,8 @@
 import 'dart:developer';
 
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Cart/presentation/widgets/Product_Quantity_Price_Widget.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Cart/presentation/widgets/product_quantity_price_widget.dart';
 import 'package:app2/featchers/Home/presentation/pages/Provider_Profile_Page.dart';
 import 'package:app2/featchers/Profile/presentation/widgets/My%20Order%20Widgets/Order%20Item/Provider_Details_Widget.dart';
 import 'package:dotted_border/dotted_border.dart';

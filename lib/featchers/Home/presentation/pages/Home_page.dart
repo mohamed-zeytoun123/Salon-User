@@ -2,17 +2,17 @@
 
 import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/Upcoming_Appointment_Card_widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Home_Services_Providers_Widget.dart';
-import 'package:app2/core/Widgets/Nearest_Suppliers_Widget.dart';
+import 'package:app2/core/Widgets/nearest_suppliers_widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Offers_And_Image_Slider_Widget.dart';
-import 'package:app2/core/Widgets/Row_Search_Filter_widget.dart';
+import 'package:app2/core/Widgets/row_search_filter_widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Service_Product_Explore_Widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Services_Section_Widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Suggested_Products_Widget.dart';
 import 'package:app2/core/app/app_manager_cubit.dart';
-import 'package:app2/core/app/App_Manager_State.dart';
+import 'package:app2/core/app/app_manager_state.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Top_Suppliers_Widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/colors/colors_faces.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Location_Widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Notification_Button_Widget.dart';
 import 'package:flutter/material.dart';

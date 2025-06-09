@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';
-import 'package:app2/featchers/Home/presentation/widgets/Service_Card_With_Add_Button_Widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/service_card_with_add_button_widget.dart';
 import 'package:flutter/material.dart';
 
 class ServicesListWidget extends StatelessWidget {

@@ -3,11 +3,11 @@
 class AddServiceModel {
   final double price;
   final String title;
-  int number; // هذا هو الحقل الذي سيمثل الكمية
+  int number;
 
   AddServiceModel({
     required this.title,
     required this.price,
-    this.number = 1, // قيمة افتراضية للعدد
+    this.number = 1,
   });
 }

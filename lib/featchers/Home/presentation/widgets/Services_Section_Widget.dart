@@ -3,7 +3,7 @@ import 'package:app2/core/Widgets/shimmer%20Slider%20Placeholder/shimmer_slider_
 import 'package:app2/core/style/Fonts_style.dart';
 import 'package:app2/featchers/Home/presentation/manager/home_cubit.dart';
 import 'package:app2/featchers/Home/presentation/manager/home_state.dart';
-import 'package:app2/featchers/Home/presentation/pages/Services_Category_page.dart';
+import 'package:app2/featchers/Home/presentation/pages/services_category_page.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Custom_header_widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Horizontal_Image_Grid_widget.dart';
 import 'package:flutter/material.dart';

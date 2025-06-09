@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 
 class ExpandableTextTile extends StatefulWidget {
   final String title;

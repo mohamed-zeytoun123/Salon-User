@@ -1,8 +1,8 @@
 // ignore_for_file: file_names
 
-import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
+import 'package:app2/core/colors/colors_faces.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/Cart/presentation/widgets/Cosmetic_Item_Card_Point_Widget.dart';
 import 'package:app2/featchers/Cart/presentation/widgets/Header_Points_Display_Widget.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';

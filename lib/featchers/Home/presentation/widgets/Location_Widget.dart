@@ -1,8 +1,8 @@
 // ignore_for_file: file_names
 
 import 'dart:developer';
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Home/presentation/widgets/Bottom%20Sheet%20Location%20Widgets/Select_Location_Bottom_Sheet_Widget.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Bottom%20Sheet%20Location%20Widgets/select_location_bottom_sheet_widget.dart';
 import 'package:flutter/material.dart';
 
 class LocationWidget extends StatefulWidget {

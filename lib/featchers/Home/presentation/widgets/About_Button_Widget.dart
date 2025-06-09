@@ -2,7 +2,7 @@
 
 import 'dart:developer';
 
-import 'package:app2/core/Widgets/Status_Badge_Widget.dart';
+import 'package:app2/core/Widgets/status_badge_widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/About_Provider_Dialog_Content_Widget.dart';
 import 'package:flutter/material.dart';
 

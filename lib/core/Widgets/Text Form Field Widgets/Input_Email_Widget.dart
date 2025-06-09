@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/core/style/Text_Form_Field_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/core/style/text_form_field_style.dart';
 import 'package:flutter/material.dart';
 
 class InputEmailWidget extends StatelessWidget {

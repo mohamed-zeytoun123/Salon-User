@@ -1,8 +1,8 @@
 // ignore_for_file: file_names
 
 import 'dart:developer';
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Profile/presentation/pages/My_Profile_Change_Password_Page.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Profile/presentation/pages/my_profile_change_password_page.dart';
 import 'package:app2/featchers/Profile/presentation/widgets/My%20Profile%20Widgets/Custom_Border_Button_Widget.dart';
 import 'package:app2/featchers/Profile/presentation/widgets/My%20Profile%20Widgets/Notification_Switch_Widget.dart';
 import 'package:flutter/material.dart';

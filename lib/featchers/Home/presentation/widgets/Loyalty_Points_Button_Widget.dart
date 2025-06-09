@@ -3,9 +3,9 @@
 import 'dart:developer';
 
 import 'package:app2/core/assets/icons_url.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Cart/presentation/pages/Loyalty_Points_Page.dart';
+import 'package:app2/core/colors/colors_faces.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Cart/presentation/pages/loyalty_points_page.dart';
 import 'package:flutter/material.dart';
 
 class LoyaltyPointsButtonWidget extends StatelessWidget {

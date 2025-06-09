@@ -2,9 +2,9 @@
 
 import 'dart:developer';
 
-import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
-import 'package:app2/featchers/Booking%20Freelance/presentation/widget/Display_Services_And_Price_Name_Widget.dart';
+import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
+import 'package:app2/core/colors/colors_faces.dart';
+import 'package:app2/featchers/Booking%20Freelance/presentation/widget/display_services_and_price_name_widget.dart';
 import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/widget/Selectable_Button_Widget.dart';
 import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/widget/W_Provider_Info_Tile_Widget.dart';
 import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/widget/W_House_Time_Date_Notes_Section_Widget.dart';

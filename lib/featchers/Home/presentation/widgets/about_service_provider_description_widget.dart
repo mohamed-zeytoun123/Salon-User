@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:flutter/material.dart';
 
 class AboutServiceProviderDescriptionWidget extends StatelessWidget {

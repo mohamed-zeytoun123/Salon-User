@@ -1,8 +1,8 @@
 // ignore_for_file: file_names
 
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Home/data/model/Rate_Product_Details_Model.dart';
-import 'package:app2/featchers/Home/presentation/widgets/Services%20Details%20Widgets/Rating_Card_Widget.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Home/data/model/rate_product_details_model_dummy.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Services%20Details%20Widgets/rating_card_widget.dart';
 import 'package:flutter/material.dart';
 
 class TapReviewWidget extends StatelessWidget {

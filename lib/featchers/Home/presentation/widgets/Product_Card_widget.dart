@@ -1,7 +1,7 @@
 // ignore_for_file: file_names, deprecated_member_use
 
-import 'package:app2/featchers/All/presentation/widget/Custom_Toggle_State_Buy.dart';
-import 'package:app2/featchers/Home/data/model/Product_model_DUMMY.dart';
+import 'package:app2/featchers/All/presentation/widget/custom_toggle_state_buy.dart';
+import 'package:app2/featchers/Home/data/model/Product_model_dummy.dart';
 import 'package:app2/featchers/Product%20Details/presentation/pages/Product_Details_Page.dart';
 import 'package:flutter/material.dart';
 

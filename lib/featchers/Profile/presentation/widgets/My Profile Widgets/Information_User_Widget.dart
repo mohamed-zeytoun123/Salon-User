@@ -1,8 +1,8 @@
 // ignore_for_file: file_names, deprecated_member_use
 
-import 'package:app2/core/app/App_Manager_Cubit.dart';
-import 'package:app2/core/app/App_Manager_State.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/app/app_manager_state.dart';
+import 'package:app2/core/app/app_manager_cubit.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -22,6 +22,7 @@ class InformationUserWidget extends StatelessWidget {
                 appState.authResponseModel?.user.phone ?? "Unknow";
             final userName =
                 appState.authResponseModel?.user.name ?? "User Name";
+            // ignore: unused_local_variable
             final userImage = appState.authResponseModel?.user.image;
             return Column(
               spacing: 5,
@@ -60,6 +61,7 @@ class InformationUserWidget extends StatelessWidget {
                 appState.authResponseModel?.user.phone ?? "Unknow";
             final userName =
                 appState.authResponseModel?.user.name ?? "User Name";
+            // ignore: unused_local_variable
             final userImage = appState.authResponseModel?.user.image;
             return Row(
               spacing: 10,

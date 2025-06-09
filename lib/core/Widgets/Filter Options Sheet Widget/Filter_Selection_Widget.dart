@@ -2,9 +2,9 @@
 import 'dart:developer';
 
 import 'package:app2/core/Widgets/Filter%20Options%20Sheet%20Widget/Service_Option_Selector_Widget.dart';
-import 'package:app2/core/Widgets/Filter%20Options%20Sheet%20Widget/Filter_Options_Widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/Widgets/Filter%20Options%20Sheet%20Widget/filter_options_widget.dart';
+import 'package:app2/core/colors/colors_faces.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:flutter/material.dart';
 
 class FilterSelectionWidget extends StatelessWidget {

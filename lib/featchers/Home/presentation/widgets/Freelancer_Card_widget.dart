@@ -1,8 +1,8 @@
 // ignore_for_file: file_names
 
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Home/data/model/Services_All_Provider_Model.dart';
-import 'package:app2/featchers/Home/presentation/pages/Provider_Profile_Page.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Home/data/model/services_all_provider_model_dummy.dart';
+import 'package:app2/featchers/Home/presentation/pages/provider_profile_page.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Rating_stars_widget.dart';
 import 'package:flutter/material.dart';
 

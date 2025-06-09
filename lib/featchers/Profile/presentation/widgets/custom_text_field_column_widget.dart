@@ -5,13 +5,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:phone_form_field/phone_form_field.dart';
 
-import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_Country_Widget.dart';
-import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_Email_Widget.dart';
-import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_Gender_Widget.dart';
-import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_Name_Widget.dart';
-import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_Phone_Number_Widget.dart';
+import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_country_widget.dart';
+import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_email_widget.dart';
+import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_gender_widget.dart';
+import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_name_widget.dart';
+import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_phone_number_widget.dart';
 import 'package:app2/core/app/app_manager_cubit.dart';
-import 'package:app2/core/app/App_Manager_State.dart';
+import 'package:app2/core/app/app_manager_state.dart';
 import 'package:app2/featchers/Profile/presentation/manager/Type_Gender_Enum.dart';
 import 'package:app2/featchers/Profile/presentation/widgets/Label_Form_Widget.dart';
 
@@ -75,6 +75,7 @@ class _CustomTextFieldColumnWidgetState
 
   Future<void> _initializePhone(String phone) async {
     try {
+      // ignore: await_only_futures
       final parsedPhone = await PhoneNumber.parse(phone);
       if (!mounted) return;
       setState(() {

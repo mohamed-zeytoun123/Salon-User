@@ -2,12 +2,12 @@
 
 import 'dart:developer';
 
-import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/BodyAppointmentCardWidget/Provider_Info_Row_Widget.dart';
-import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/BodyAppointmentCardWidget/Service_Info_Row_Widget.dart';
-import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/BodyAppointmentCardWidget/Booking_Date_Time_Widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/BodyAppointmentCardWidget/provider_info_row_widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/BodyAppointmentCardWidget/service_info_row_widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/BodyAppointmentCardWidget/booking_date_time_widget.dart';
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
-import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/BodyAppointmentCardWidget/Location_Text_Widget.dart';
-import 'package:app2/core/model/Body%20Appointment%20Card%20Model/Body_Appointment_Card_Model.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/BodyAppointmentCardWidget/location_text_widget.dart';
+import 'package:app2/core/model/Body%20Appointment%20Card%20Model/body_appointment_card_model_dummy.dart';
 import 'package:app2/core/style/Fonts_style.dart';
 import 'package:app2/featchers/Profile/presentation/pages/Cancel_Order_Page.dart';
 import 'package:flutter/material.dart';

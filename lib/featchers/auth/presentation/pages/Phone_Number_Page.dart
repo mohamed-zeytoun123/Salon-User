@@ -1,11 +1,11 @@
 // ignore_for_file: must_be_immutable, file_names
 
-import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_Phone_Number_Widget.dart';
+import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_phone_number_widget.dart';
 import 'package:app2/featchers/auth/presentation/pages/OTP_Number_page.dart';
-import 'package:app2/core/Widgets/Bottom%20Sheet%20Widgets/Bottom_Sheet_Widget.dart';
-import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_colormain_widget.dart';
+import 'package:app2/core/Widgets/Bottom%20Sheet%20Widgets/bottom_sheet_widget.dart';
+import 'package:app2/core/Widgets/Form%20Button%20Widget/text_button_color_main_widget.dart';
 import 'package:app2/core/colors/Background_color_pages.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:flutter/material.dart';
 import 'package:phone_form_field/phone_form_field.dart';
 

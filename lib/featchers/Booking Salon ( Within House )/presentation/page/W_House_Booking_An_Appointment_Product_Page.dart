@@ -1,11 +1,11 @@
 // ignore_for_file: file_names, must_be_immutable
 import 'dart:developer';
 
-import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
+import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
-import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_Dotted_TextField_Widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_dotted_text_field_widget.dart';
+import 'package:app2/core/colors/colors_faces.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/page/W_House_Invoice_Details_Page.dart';
 import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/widget/Fixed_Appointment_Card_Widget.dart';
 import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/widget/Services_With_Salon_Widget.dart';

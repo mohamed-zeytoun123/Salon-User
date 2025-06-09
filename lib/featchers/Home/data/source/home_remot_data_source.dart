@@ -1,4 +1,4 @@
-import 'package:app2/core/Error/Failure.dart';
+import 'package:app2/core/Error/failure.dart';
 import 'package:app2/core/network/slider_model.dart';
 import 'package:app2/featchers/Home/data/model/Product_model.dart';
 import 'package:app2/featchers/Home/data/model/branch_model.dart';

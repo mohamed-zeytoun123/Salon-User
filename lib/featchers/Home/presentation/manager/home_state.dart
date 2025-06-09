@@ -1,9 +1,11 @@
+// ignore_for_file: unnecessary_this
+
 import 'package:app2/core/network/slider_model.dart';
 import 'package:app2/featchers/Home/data/model/Product_model.dart';
 import 'package:app2/featchers/Home/data/model/nearest_model.dart';
 import 'package:app2/featchers/Home/data/model/service_model.dart';
 import 'package:equatable/equatable.dart';
-import 'package:app2/core/Error/Failure.dart';
+import 'package:app2/core/Error/failure.dart';
 import 'package:app2/featchers/Home/data/model/branch_model.dart';
 
 class HomeState extends Equatable {
@@ -166,7 +168,8 @@ class HomeState extends Equatable {
       isLoadingService: isLoadingService ?? this.isLoadingService,
       errorService: errorService ?? this.errorService,
       serviceFetchAllList: serviceFetchAll ?? this.serviceFetchAllList,
-      isLoadingServicesFetchAll: isLoadingFetchAll ?? this.isLoadingServicesFetchAll,
+      isLoadingServicesFetchAll:
+          isLoadingFetchAll ?? this.isLoadingServicesFetchAll,
       errorServiceFetchAll: errorServiceFetchAll ?? this.errorServiceFetchAll,
       serviceFetchFreelanceList:
           serviceFetchFreelance ?? this.serviceFetchFreelanceList,
@@ -175,7 +178,8 @@ class HomeState extends Equatable {
       errorServiceFetchFreelance:
           errorServiceFetchFreelance ?? this.errorServiceFetchFreelance,
       serviceFetchSalonList: serviceFetchSalon ?? this.serviceFetchSalonList,
-      isLoadingServicesFetchSalon: isLoadingFetchSalon ?? this.isLoadingServicesFetchSalon,
+      isLoadingServicesFetchSalon:
+          isLoadingFetchSalon ?? this.isLoadingServicesFetchSalon,
       errorServiceFetchSalon:
           errorServiceFetchSalon ?? this.errorServiceFetchSalon,
     );

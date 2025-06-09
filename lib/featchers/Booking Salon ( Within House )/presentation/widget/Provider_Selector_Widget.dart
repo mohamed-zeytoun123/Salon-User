@@ -3,8 +3,8 @@
 import 'dart:developer';
 
 import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Booking%20Freelance/presentation/widget/Provider_Show_Image_Name_Dis_Widget.dart';
-import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/data/model/Provider_Model.dart';
+import 'package:app2/featchers/Booking%20Freelance/presentation/widget/provider_show_image_name_dis_widget.dart';
+import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/data/model/provider_model_dummy.dart';
 import 'package:flutter/material.dart';
 
 class ProviderSelectorWidget extends StatefulWidget {

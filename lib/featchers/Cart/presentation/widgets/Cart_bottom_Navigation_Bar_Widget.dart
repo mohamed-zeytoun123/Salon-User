@@ -3,9 +3,9 @@
 import 'dart:developer';
 
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Cart/presentation/pages/Cart_Invoice_details_Page.dart';
+import 'package:app2/featchers/Cart/presentation/pages/cart_invoice_details_page.dart';
 import 'package:flutter/material.dart';
 
 class CartBottomNavigationBarWidget extends StatelessWidget {

@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Home/presentation/widgets/Location_Map_Preview_Widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/location_map_preview_widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Provider_Location_Details_Widget.dart';
 import 'package:flutter/material.dart';
 

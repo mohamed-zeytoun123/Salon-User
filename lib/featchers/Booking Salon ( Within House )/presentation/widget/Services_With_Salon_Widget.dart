@@ -2,10 +2,10 @@
 
 import 'dart:developer';
 
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Booking%20Freelance/presentation/widget/Display_Services_And_Price_Name_Widget.dart';
-import 'package:app2/featchers/Booking%20Freelance/presentation/widget/Services_Quantity_Selector_Widget.dart';
-import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/widget/Provider_Selector_Widget.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Booking%20Freelance/presentation/widget/display_services_and_price_name_widget.dart';
+import 'package:app2/featchers/Booking%20Freelance/presentation/widget/services_quantity_selector_widget.dart';
+import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/widget/provider_selector_widget.dart';
 import 'package:app2/featchers/Home/data/model/Add_Service_Model.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';
 import 'package:flutter/material.dart';

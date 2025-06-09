@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
-import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/core/network/general_api.dart';
 import 'package:app2/featchers/All/presentation/widget/All_Product_Widget.dart';
 import 'package:app2/featchers/Home/data/source/home_remot_data_source_impl.dart';

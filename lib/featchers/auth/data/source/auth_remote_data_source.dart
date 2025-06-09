@@ -1,7 +1,7 @@
 
 import 'dart:developer';
 
-import 'package:app2/core/Error/Failure.dart';
+import 'package:app2/core/Error/failure.dart';
 import 'package:app2/featchers/auth/data/models/auth_response_model.dart';
 import 'package:app2/core/network/app_urls.dart';
 import 'package:dartz/dartz.dart';

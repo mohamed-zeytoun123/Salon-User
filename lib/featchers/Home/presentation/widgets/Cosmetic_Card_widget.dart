@@ -1,6 +1,6 @@
 // ignore_for_file: file_names, deprecated_member_use
 import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Home/data/model/Cosmet_providers_Model.dart';
+import 'package:app2/featchers/Home/data/model/cosmet_providers_model_dummy.dart';
 import 'package:app2/featchers/Home/data/model/branch_model.dart';
 import 'package:flutter/material.dart';
 

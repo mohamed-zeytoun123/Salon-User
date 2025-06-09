@@ -1,9 +1,9 @@
 // ignore_for_file: file_names
 
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Custom_header_widget.dart';
-import 'package:app2/featchers/Home/presentation/widgets/Product_Card_widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/product_card_widget.dart';
 import 'package:flutter/material.dart';
 
 class SuggestedProductsWidget extends StatelessWidget {

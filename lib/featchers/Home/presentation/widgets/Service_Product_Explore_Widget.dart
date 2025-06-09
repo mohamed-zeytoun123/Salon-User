@@ -1,8 +1,8 @@
 // ignore_for_file: file_names
 
-import 'package:app2/core/Widgets/Constant%20Widgets/Button_Constant_widget.dart';
+import 'package:app2/core/Widgets/Constant%20Widgets/button_constant_widget.dart';
 import 'package:app2/core/Widgets/shimmer%20Slider%20Placeholder/shimmer_slider_placeholder.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/Home/presentation/manager/home_cubit.dart';
 import 'package:app2/featchers/Home/presentation/manager/home_state.dart';
 import 'package:flutter/material.dart';

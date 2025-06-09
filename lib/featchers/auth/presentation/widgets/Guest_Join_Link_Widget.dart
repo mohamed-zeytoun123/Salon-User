@@ -2,7 +2,7 @@
 
 import 'dart:developer';
 
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/Home/presentation/pages/Home_Content_Page.dart';
 import 'package:flutter/material.dart';
 

@@ -1,7 +1,7 @@
 // ignore_for_file: must_be_immutable, file_names
 
 import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Custom_Dropdown_Field_State_Widget.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:flutter/material.dart';
 
 class AreaContentWidget extends StatelessWidget {

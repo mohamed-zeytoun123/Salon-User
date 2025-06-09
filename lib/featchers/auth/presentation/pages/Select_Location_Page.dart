@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
-import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
-import 'package:app2/core/Widgets/Select_Location_Widget.dart';
+import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
+import 'package:app2/core/Widgets/select_location_widget.dart';
 import 'package:flutter/material.dart';
 
 class SelectLocation extends StatelessWidget {

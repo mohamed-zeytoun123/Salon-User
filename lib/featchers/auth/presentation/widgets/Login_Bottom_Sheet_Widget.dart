@@ -3,8 +3,8 @@ import 'dart:developer';
 
 import 'package:app2/core/Widgets/Bottom%20Sheet%20Widgets/Bottom_Sheet_Widget.dart';
 import 'package:app2/core/app/app_manager_cubit.dart';
-import 'package:app2/core/style/App_Snack_Bar.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/app_snack_bar.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/Home/presentation/pages/Home_Content_Page.dart';
 import 'package:app2/featchers/auth/presentation/manager/auth_cubit.dart';
 import 'package:app2/featchers/auth/presentation/manager/auth_state.dart';

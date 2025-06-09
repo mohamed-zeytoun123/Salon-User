@@ -1,11 +1,11 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_Phone_Number_Widget.dart';
+import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_phone_number_widget.dart';
 import 'package:app2/featchers/auth/presentation/pages/create_new_account_page.dart';
 import 'package:app2/featchers/auth/presentation/pages/Phone_Number_Page.dart';
 import 'package:app2/core/Widgets/Bottom%20Sheet%20Widgets/Bottom_Sheet_Widget.dart';
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
-import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_passowrd_widget.dart';
+import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_passowrd_widget.dart';
 import 'package:app2/core/colors/Background_color_pages.dart';
 import 'package:app2/core/style/Fonts_style.dart';
 import 'package:flutter/material.dart';

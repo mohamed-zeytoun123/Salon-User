@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
-import 'package:app2/core/Widgets/Status_Badge_Widget.dart';
-import 'package:app2/core/model/Body%20Appointment%20Card%20Model/Provider_Info_Model.dart';
+import 'package:app2/core/Widgets/status_badge_widget.dart';
+import 'package:app2/core/model/Body%20Appointment%20Card%20Model/provider_info_model.dart';
 import 'package:app2/core/style/Fonts_style.dart';
 import 'package:flutter/material.dart';
 

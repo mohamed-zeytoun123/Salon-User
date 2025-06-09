@@ -1,6 +1,6 @@
 // ignore_for_file: file_names, must_be_immutable
 
-import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_passowrd_widget.dart';
+import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_passowrd_widget.dart';
 import 'package:app2/core/style/Fonts_style.dart';
 import 'package:flutter/material.dart';
 

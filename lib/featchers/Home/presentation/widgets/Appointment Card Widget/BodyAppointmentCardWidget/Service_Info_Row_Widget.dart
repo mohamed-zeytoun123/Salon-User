@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
-import 'package:app2/core/Widgets/Gradient_Text_widget.dart';
-import 'package:app2/core/model/Body%20Appointment%20Card%20Model/Service_Info_model.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/Widgets/gradient_text_widget.dart';
+import 'package:app2/core/model/Body%20Appointment%20Card%20Model/service_info_model_dummy.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:flutter/material.dart';
 
 class ServiceInfoRowWidget extends StatelessWidget {

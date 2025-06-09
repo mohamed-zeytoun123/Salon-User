@@ -3,7 +3,7 @@
 import 'dart:developer';
 
 import 'package:app2/core/Widgets/shimmer%20Slider%20Placeholder/shimmer_slider_placeholder.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/All/presentation/pages/Near_Suppliers_Page.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';
 import 'package:app2/featchers/Home/presentation/manager/home_cubit.dart';

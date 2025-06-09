@@ -1,9 +1,9 @@
 // ignore_for_file: library_private_types_in_public_api, file_names
 
 import 'dart:developer';
-import 'package:app2/core/colors/Colors_Faces.dart';
-import 'package:app2/core/model/Body%20Appointment%20Card%20Model/Service_Info_model.dart';
-import 'package:app2/featchers/Booking%20Freelance/presentation/page/Booking_An_Appointment_Freelance_Product_Page.dart';
+import 'package:app2/core/colors/colors_faces.dart';
+import 'package:app2/core/model/Body%20Appointment%20Card%20Model/service_info_model_dummy.dart';
+import 'package:app2/featchers/Booking%20Freelance/presentation/page/booking_an_appointment_freelance_product_page.dart';
 import 'package:app2/featchers/Home/data/model/Add_Service_Model.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';
 import 'package:flutter/material.dart';

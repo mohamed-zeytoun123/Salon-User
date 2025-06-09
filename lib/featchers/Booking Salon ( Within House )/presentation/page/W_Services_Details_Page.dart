@@ -1,12 +1,12 @@
 // ignore_for_file: file_names
 import 'dart:developer';
 
-import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
+import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Booking%20Freelance/presentation/page/Frelance_Profile_Page.dart';
-import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/page/W_House_Booking_An_Appointment_Page.dart';
+import 'package:app2/core/colors/colors_faces.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Booking%20Freelance/presentation/page/frelance_profile_page.dart';
+import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/page/w_house_booking_an_appointment_page.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Rating_stars_widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Services%20Details%20Widgets/Product_Details_Widget.dart';

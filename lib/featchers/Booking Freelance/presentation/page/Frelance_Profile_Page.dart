@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 import 'package:app2/core/assets/image_url.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Provider_Header_Section_Widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Provider_Info_Hader_Widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Freelance_Services_Product_Review_Tabs_Widget.dart';

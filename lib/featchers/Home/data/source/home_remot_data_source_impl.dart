@@ -1,4 +1,4 @@
-import 'package:app2/core/Error/Failure.dart';
+import 'package:app2/core/Error/failure.dart';
 import 'package:app2/core/network/api_request.dart';
 import 'package:app2/core/network/api_response.dart';
 import 'package:app2/core/network/app_urls.dart';

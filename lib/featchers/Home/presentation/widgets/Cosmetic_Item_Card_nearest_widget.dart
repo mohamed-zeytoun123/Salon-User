@@ -1,7 +1,7 @@
 // ignore_for_file: file_names, deprecated_member_use
 import 'package:app2/core/assets/icons_url.dart';
 import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Home/data/model/Cosmetic_Item_Model.dart';
+import 'package:app2/featchers/Home/data/model/Cosmetic_Item_Model_Dummy.dart';
 import 'package:app2/featchers/Home/data/model/nearest_model.dart';
 import 'package:app2/featchers/Home/data/model/provider_model.dart';
 import 'package:flutter/material.dart';

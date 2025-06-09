@@ -1,8 +1,8 @@
 // ignore_for_file: file_names
 
 import 'dart:developer';
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Booking%20Freelance/presentation/widget/Display_Services_And_Price_Name_Widget.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Booking%20Freelance/presentation/widget/display_services_and_price_name_widget.dart';
 import 'package:app2/featchers/Booking%20Freelance/presentation/widget/Services_Quantity_Selector_Widget.dart';
 import 'package:app2/featchers/Home/data/model/Add_Service_Model.dart';
 import 'package:flutter/material.dart';

@@ -5,9 +5,9 @@ import 'dart:developer';
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
 import 'package:app2/core/colors/Background_color_pages.dart';
 import 'package:app2/core/model/Booking_Date_Model.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/Home/presentation/pages/Provider_Profile_Page.dart';
-import 'package:app2/featchers/Profile/presentation/widgets/My%20Order%20Widgets/Order%20Item/Order_Details_Widget.dart';
+import 'package:app2/featchers/Profile/presentation/widgets/My%20Order%20Widgets/Order%20Item/order_details_wi/dget.dart';
 import 'package:app2/featchers/Profile/presentation/widgets/My%20Order%20Widgets/Order%20Item/Provider_Details_Widget.dart';
 import 'package:flutter/material.dart';
 

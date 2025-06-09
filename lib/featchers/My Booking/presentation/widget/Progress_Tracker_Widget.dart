@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:flutter/material.dart';
 
 class StepProgressWidget extends StatelessWidget {

@@ -1,7 +1,7 @@
 // ignore_for_file: file_names, must_be_immutable
-import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
+import 'package:app2/core/colors/colors_faces.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/Booking%20Freelance/presentation/widget/Booking_Time_And_Date_Selector_Section_Widget.dart';
 import 'package:app2/featchers/Booking%20Freelance/presentation/widget/booking_provider_card_Widget.dart';
 import 'package:flutter/material.dart';

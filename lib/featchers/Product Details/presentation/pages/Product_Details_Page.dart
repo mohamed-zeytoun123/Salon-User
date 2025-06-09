@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 import 'package:app2/core/Widgets/Bottom%20Sheet%20Widgets/Bottom_Sheet_Widget.dart';
 import 'package:app2/core/assets/image_url.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Services%20Details%20Widgets/Product_Details_Widget.dart';
 import 'package:app2/featchers/Product%20Details/presentation/widget/Provider_Product_Info_Section_Widget.dart';

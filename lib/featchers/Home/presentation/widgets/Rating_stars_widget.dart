@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 
 class RatingStarsWidget extends StatelessWidget {
   final double rating;

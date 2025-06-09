@@ -1,6 +1,6 @@
 // ignore_for_file: file_names, deprecated_member_use
-import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/core/style/Fonts_style.dart';
 import 'package:app2/featchers/Cart/presentation/widgets/Card_Item_Wallet_Widget.dart';
 import 'package:app2/featchers/Cart/presentation/widgets/Form_Header_Of_Wallet_Widget.dart';

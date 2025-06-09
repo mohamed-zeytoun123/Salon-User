@@ -1,10 +1,7 @@
-import 'dart:convert';
-import 'dart:developer';
 
-import 'package:app2/featchers/auth/data/models/user_model.dart';
+import 'dart:developer';
 import 'package:app2/featchers/auth/data/source/auth_remote_data_source.dart';
 import 'package:app2/featchers/auth/presentation/manager/auth_state.dart';
-import 'package:dio/dio.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class AuthCubit extends Cubit<AuthState> {

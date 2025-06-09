@@ -1,13 +1,13 @@
 // ignore_for_file: file_names
 
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:flutter/material.dart';
 import 'package:dotted_border/dotted_border.dart';
-import 'package:app2/featchers/Profile/presentation/manager/Cancellation_Reason_Enum.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/featchers/Profile/presentation/manager/cancellation_reason_enum.dart';
+import 'package:app2/core/style/fonts_style.dart';
 
 class CancellationReasons extends StatefulWidget {
-  final Function(CancellationReason) onSelected;
+  final Function(CancellationReasonEnum) onSelected;
 
   const CancellationReasons({super.key, required this.onSelected});
 
@@ -17,9 +17,9 @@ class CancellationReasons extends StatefulWidget {
 }
 
 class _CancellationReasonsState extends State<CancellationReasons> {
-  CancellationReason? selectedReason;
+  CancellationReasonEnum? selectedReason;
 
-  void _handleSelection(CancellationReason value) {
+  void _handleSelection(CancellationReasonEnum value) {
     setState(() {
       selectedReason = value;
     });
@@ -33,19 +33,19 @@ class _CancellationReasonsState extends State<CancellationReasons> {
       child: Column(
         children: [
           buildReasonSelect(
-            CancellationReason.changeMyMind,
+            CancellationReasonEnum.changeMyMind,
             "Change my mind",
           ),
           buildReasonSelect(
-            CancellationReason.noLongerNeedService,
+            CancellationReasonEnum.noLongerNeedService,
             "I no longer need the service",
           ),
           buildReasonSelect(
-            CancellationReason.didNotRespond,
+            CancellationReasonEnum.didNotRespond,
             "The service provider did not respond to messages",
           ),
           buildReasonSelect(
-            CancellationReason.pricesAreHigh,
+            CancellationReasonEnum.pricesAreHigh,
             "Service provider prices are high",
           ),
         ],
@@ -53,7 +53,7 @@ class _CancellationReasonsState extends State<CancellationReasons> {
     );
   }
 
-  Widget buildReasonSelect(CancellationReason value, String title) {
+  Widget buildReasonSelect(CancellationReasonEnum value, String title) {
     return GestureDetector(
       onTap: () => _handleSelection(value),
       child: Container(

@@ -2,9 +2,9 @@
 
 import 'dart:developer';
 
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/All/presentation/widget/Get_Rating_Stars_Widget.dart';
-import 'package:app2/featchers/Home/data/model/Rating_base_model.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/All/presentation/widget/get_rating_stars_widget.dart';
+import 'package:app2/featchers/Home/data/model/rating_base_model.dart';
 import 'package:flutter/material.dart';
 
 class GiveRatingWidget extends StatefulWidget {

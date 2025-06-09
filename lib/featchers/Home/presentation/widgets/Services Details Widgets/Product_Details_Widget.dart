@@ -1,8 +1,8 @@
 // ignore_for_file: file_names, use_full_hex_values_for_flutter_colors, library_private_types_in_public_api
-import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_colormain_widget.dart';
+import 'package:app2/core/Widgets/Form%20Button%20Widget/text_button_color_main_widget.dart';
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Home/data/model/Rate_Product_Details_Model.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Home/data/model/rate_product_details_model_dummy.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Services%20Details%20Widgets/Tap_Description_Widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Services%20Details%20Widgets/Tap_Review_Widget.dart';
 import 'package:flutter/material.dart';

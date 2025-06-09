@@ -1,7 +1,7 @@
 // ignore_for_file: library_private_types_in_public_api, file_names
 
 import 'dart:async';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:flutter/material.dart';
 
 class CountdownTimerWidget extends StatefulWidget {

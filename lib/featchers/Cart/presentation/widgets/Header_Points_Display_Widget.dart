@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:app2/core/assets/icons_url.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/core/style/Fonts_style.dart';
 import 'package:flutter/widgets.dart';
 

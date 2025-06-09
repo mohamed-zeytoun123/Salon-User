@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 import 'dart:developer';
-import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_colormain_widget.dart';
+import 'package:app2/core/Widgets/Form%20Button%20Widget/text_button_color_main_widget.dart';
 import 'package:app2/featchers/auth/presentation/manager/auth_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

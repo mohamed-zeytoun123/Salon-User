@@ -2,6 +2,7 @@
 
 import 'package:app2/core/model/Booking_Date_Model.dart';
 
+
 class NotificationItemModelDUMMY {
   final String imageUrl;
   final String userName;

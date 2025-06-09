@@ -1,4 +1,4 @@
-// // ignore_for_file: file_names
+// ignore_for_file: file_names
 
 // import 'package:animated_text_kit/animated_text_kit.dart';
 // import 'package:app2/featchers/auth/presentation/pages/Welcome_Back_Page.dart';

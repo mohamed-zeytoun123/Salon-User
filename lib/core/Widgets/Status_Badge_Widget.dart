@@ -1,9 +1,9 @@
 // ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/core/Widgets/Gradient_Text_widget.dart';
+import 'package:app2/core/colors/colors_faces.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/core/Widgets/gradient_text_widget.dart';
 
 class StatusBadgeWidget extends StatelessWidget {
   final String text;

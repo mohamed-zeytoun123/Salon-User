@@ -1,9 +1,9 @@
 // ignore_for_file: file_names
 import 'dart:developer';
-import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
+import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/colors/colors_faces.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';
 import 'package:app2/featchers/Home/data/model/service_model.dart';
 import 'package:app2/featchers/Home/presentation/pages/Provider_Profile_Page.dart';

@@ -1,12 +1,9 @@
 // ignore_for_file: file_names
 
 import 'package:app2/core/network/general_api.dart';
-import 'package:app2/featchers/Home/data/model/Image_Item_model.dart';
 import 'package:app2/featchers/Home/data/model/service_model.dart';
 import 'package:app2/featchers/Home/data/source/home_remot_data_source_impl.dart';
 import 'package:app2/featchers/Home/presentation/manager/home_cubit.dart';
-
-import 'package:app2/featchers/Home/presentation/pages/nearest_fitch_page.dart';
 import 'package:app2/featchers/Home/presentation/pages/services_fetch_page.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';

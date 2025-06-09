@@ -1,6 +1,6 @@
 // ignore_for_file: file_names, deprecated_member_use
 
-import 'package:app2/featchers/Home/data/model/Rate_Product_Details_Model.dart';
+import 'package:app2/featchers/Home/data/model/rate_product_details_model_dummy.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Services%20Details%20Widgets/User_Rating_Widget.dart';
 import 'package:flutter/material.dart';
 

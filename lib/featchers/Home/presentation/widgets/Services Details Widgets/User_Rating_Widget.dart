@@ -2,8 +2,8 @@
 
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Home/data/model/Rate_Product_Details_Model.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Home/data/model/rate_product_details_model_dummy.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Rating_stars_widget.dart';
 
 class UserRatingWidget extends StatelessWidget {

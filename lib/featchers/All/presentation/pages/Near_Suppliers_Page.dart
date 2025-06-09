@@ -1,10 +1,10 @@
 // ignore_for_file: file_names
-import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/core/network/general_api.dart';
 import 'package:app2/featchers/Home/data/source/home_remot_data_source_impl.dart';
 import 'package:app2/featchers/Home/presentation/manager/home_cubit.dart';
-import 'package:app2/featchers/Home/presentation/widgets/Top_TabBar_Supplienrs_Widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/top_tab_bar_supplienrs_widget.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

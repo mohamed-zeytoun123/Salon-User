@@ -2,12 +2,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/core/Widgets/Status_Badge_Widget.dart';
+import 'package:app2/core/Widgets/status_badge_widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/BodyAppointmentCardWidget/Booking_Date_Time_Widget.dart';
-import 'package:app2/core/model/Body Appointment Card Model/Booking_Date_Time_model.dart';
-import 'package:app2/core/model/Body Appointment Card Model/enum_Time_Period_model.dart';
+import 'package:app2/core/model/Body%20Appointment%20Card%20Model/booking_date_time_model.dart';
+import 'package:app2/core/model/Body%20Appointment%20Card%20Model/enum_Time_Period_model.dart';
+
 import 'package:app2/core/model/Booking_Date_Model.dart';
-import 'package:app2/featchers/Booking Freelance/presentation/widget/Provider_Show_Image_Name_Dis_Widget.dart';
+import 'package:app2/featchers/Booking%20Freelance/presentation/widget/provider_show_image_name_dis_widget.dart';
 
 class FixedAppointmentCardWidget extends StatelessWidget {
   const FixedAppointmentCardWidget({super.key});

@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-enum CancellationReason {
+enum CancellationReasonEnum {
   changeMyMind,
   noLongerNeedService,
   didNotRespond,

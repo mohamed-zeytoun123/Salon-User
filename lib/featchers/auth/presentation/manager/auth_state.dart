@@ -1,6 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 
-import 'package:app2/core/Error/Failure.dart';
+import 'package:app2/core/Error/failure.dart';
 import 'package:app2/featchers/auth/data/models/auth_response_model.dart';
 
 class AuthState {

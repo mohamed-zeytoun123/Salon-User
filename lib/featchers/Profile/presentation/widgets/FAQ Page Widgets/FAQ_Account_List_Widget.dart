@@ -1,8 +1,8 @@
 // ignore: unused_local_variable,
 // ignore_for_file: file_names
 
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Profile/presentation/widgets/FAQ%20Page%20Widgets/Expandable_text_tile_widget.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Profile/presentation/widgets/FAQ%20Page%20Widgets/expandable_text_tile_widget.dart';
 import 'package:flutter/material.dart';
 
 // ignore: non_constant_identifier_names

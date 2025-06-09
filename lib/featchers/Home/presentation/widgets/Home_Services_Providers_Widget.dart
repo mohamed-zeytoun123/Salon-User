@@ -2,11 +2,11 @@
 
 import 'dart:developer';
 
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/All/presentation/pages/Near_Suppliers_Page.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Custom_header_widget.dart';
-import 'package:app2/featchers/Home/presentation/widgets/Freelancer_Card_widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/freelancer_card_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomeServicesProvidersWidget extends StatelessWidget {

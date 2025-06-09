@@ -1,4 +1,3 @@
-import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/data/model/Provider_Model.dart';
 import 'package:app2/featchers/Home/data/model/address_model.dart';
 import 'package:app2/featchers/Home/data/model/provider_model.dart';
 

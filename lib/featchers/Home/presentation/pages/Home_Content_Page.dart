@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
-import 'package:app2/core/Widgets/Bottom%20Sheet%20Widgets/Body_Content_widget.dart';
-import 'package:app2/core/Widgets/Bottom%20Sheet%20Widgets/Custom_Bottom_NavBar_widget.dart';
+import 'package:app2/core/Widgets/Bottom%20Sheet%20Widgets/body_content_widget.dart';
+import 'package:app2/core/Widgets/Bottom%20Sheet%20Widgets/custom_bottom_navBar_widget.dart';
 import 'package:app2/core/network/dependency_Injection.dart';
 import 'package:app2/featchers/Home/data/source/home_remot_data_source.dart';
 import 'package:app2/featchers/Home/presentation/manager/home_cubit.dart';
@@ -31,7 +31,7 @@ class _HomeContentPageState extends State<HomeContentPage> {
         create: (_) => HomeCubit(remot: getInstance<HomeRemotDataSource>()),
         child: Scaffold(
           body: BodyContent(currentIndex: _currentIndex),
-          bottomNavigationBar: CustomBottomNavBar(
+          bottomNavigationBar: CustomBottomNavBarWidget(
             currentIndex: _currentIndex,
             onTabTapped: _updateIndex,
           ),

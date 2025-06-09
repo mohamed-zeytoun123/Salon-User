@@ -2,7 +2,7 @@
 
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 
 class InputDottedTextfieldWidget extends StatelessWidget {
   final String hintText;

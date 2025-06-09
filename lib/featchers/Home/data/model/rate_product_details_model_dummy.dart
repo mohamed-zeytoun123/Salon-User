@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:app2/featchers/Home/data/model/Rating_base_model.dart';
+import 'package:app2/featchers/Home/data/model/rating_base_model.dart';
 
 class RateProductDetailsModelDUMMY extends RatingBase {
   final String ? reviewerImage;

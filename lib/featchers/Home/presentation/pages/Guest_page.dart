@@ -1,14 +1,14 @@
 // ignore_for_file: file_names
-import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
+import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Home_Services_Providers_Widget.dart';
-import 'package:app2/core/Widgets/Nearest_Suppliers_Widget.dart';
+import 'package:app2/core/Widgets/nearest_suppliers_widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Offers_And_Image_Slider_Widget.dart';
-import 'package:app2/core/Widgets/Row_Search_Filter_widget.dart';
+import 'package:app2/core/Widgets/row_search_filter_widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Service_Product_Explore_Widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Services_Section_Widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Suggested_Products_Widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Top_Suppliers_Widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:flutter/material.dart';
 
 class GuestPage extends StatelessWidget {

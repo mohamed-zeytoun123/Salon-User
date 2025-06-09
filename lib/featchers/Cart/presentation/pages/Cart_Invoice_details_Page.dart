@@ -2,14 +2,14 @@
 
 import 'dart:developer';
 
-import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
+import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Booking%20Freelance/presentation/widget/Expandable_Service_Price_Tile.dart';
+import 'package:app2/featchers/Booking%20Freelance/presentation/widget/expandable_service_price_tile.dart';
 import 'package:app2/featchers/Booking%20Freelance/presentation/widget/Input_Promo_Code_Widget.dart';
 import 'package:app2/featchers/Booking%20Freelance/presentation/widget/Location_Change_Tile_Widget.dart';
-import 'package:app2/featchers/Booking%20Freelance/presentation/widget/Static_Price_Delivery_Widget.dart';
+import 'package:app2/featchers/Booking%20Freelance/presentation/widget/static_price_delivery_widget.dart';
 import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/widget/Dialog_Want_To_Pay_Widget.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';
 import 'package:flutter/material.dart';

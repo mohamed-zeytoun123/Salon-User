@@ -1,9 +1,9 @@
 // ignore_for_file: file_names, must_be_immutable
 import 'dart:developer';
-import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
-import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_colormain_widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
-import 'package:app2/featchers/Profile/presentation/widgets/Custom_TextField_Column_Widget.dart';
+import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
+import 'package:app2/core/Widgets/Form%20Button%20Widget/text_button_color_main_widget.dart';
+import 'package:app2/core/colors/colors_faces.dart';
+import 'package:app2/featchers/Profile/presentation/widgets/Custom_Text_Field_Column_Widget.dart';
 import 'package:app2/featchers/Profile/presentation/widgets/My%20Profile%20Widgets/Information_User_Widget.dart';
 import 'package:flutter/material.dart';
 

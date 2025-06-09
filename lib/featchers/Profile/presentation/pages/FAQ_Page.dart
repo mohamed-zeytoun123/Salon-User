@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
-import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/featchers/Profile/presentation/widgets/FAQ%20Page%20Widgets/FAQ_Account_List_Widget.dart';
 import 'package:app2/featchers/Profile/presentation/widgets/FAQ%20Page%20Widgets/FAQ_Payment_List_Widget.dart';
 import 'package:app2/featchers/Profile/presentation/widgets/FAQ%20Page%20Widgets/FAQ_Services_List_Widget.dart';

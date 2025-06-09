@@ -2,9 +2,9 @@
 
 import 'dart:developer';
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
-import 'package:app2/core/model/Body%20Appointment%20Card%20Model/Booking_Date_Time_model.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/colors/colors_faces.dart';
+import 'package:app2/core/model/Body%20Appointment%20Card%20Model/booking_date_time_model.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';

@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
-import 'package:app2/core/Widgets/Row_Search_Filter_widget.dart';
-import 'package:app2/featchers/Home/data/model/Product_model_DUMMY.dart';
+import 'package:app2/core/Widgets/row_search_filter_widget.dart';
+import 'package:app2/featchers/Home/data/model/Product_model_dummy.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Product_Card_widget.dart';
 import 'package:flutter/material.dart';

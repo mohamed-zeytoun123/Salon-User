@@ -1,11 +1,11 @@
 // ignore_for_file: file_names
 
-import 'package:app2/core/model/Body%20Appointment%20Card%20Model/Booking_Date_Time_model.dart';
+import 'package:app2/core/model/Body%20Appointment%20Card%20Model/booking_date_time_model.dart';
 import 'package:app2/core/model/Body%20Appointment%20Card%20Model/enum_Time_Period_model.dart';
 import 'package:app2/core/style/Fonts_style.dart';
 import 'package:flutter/material.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
-import 'package:app2/featchers/Booking%20Freelance/data/model/Option_Model.dart';
+import 'package:app2/core/colors/colors_faces.dart';
+import 'package:app2/featchers/Booking%20Freelance/data/model/option_model_dummy.dart';
 
 class ToggleOptionSelectorWidget extends StatefulWidget {
   final Function(BookingTime)? onQuantitySelected;

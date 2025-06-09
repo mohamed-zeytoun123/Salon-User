@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
 import 'dart:developer';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/Home/data/model/Add_Service_Model.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';

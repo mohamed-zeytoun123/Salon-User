@@ -1,10 +1,10 @@
-import 'package:app2/core/Error/Failure.dart';
-import 'package:app2/core/Widgets/Row_Search_Filter_widget.dart';
+import 'package:app2/core/Error/failure.dart';
+import 'package:app2/core/Widgets/row_search_filter_widget.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';
 import 'package:app2/featchers/Home/data/model/service_model.dart';
 import 'package:app2/featchers/Home/presentation/manager/home_cubit.dart';
 import 'package:app2/featchers/Home/presentation/manager/home_state.dart';
-import 'package:app2/featchers/Home/presentation/pages/Services_Details_Page.dart';
+import 'package:app2/featchers/Home/presentation/pages/services_details_page.dart';
 import 'package:app2/featchers/Home/presentation/widgets/cosmetic_item_service_card_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

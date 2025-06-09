@@ -3,8 +3,8 @@
 import 'dart:developer';
 
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
-import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/Input_Integer_Value_Widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_integer_value_widget.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/core/style/Fonts_style.dart';
 import 'package:app2/featchers/Cart/presentation/pages/Wallet_Page.dart';
 import 'package:flutter/material.dart';

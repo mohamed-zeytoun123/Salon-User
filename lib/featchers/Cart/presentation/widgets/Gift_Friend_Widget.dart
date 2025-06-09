@@ -3,9 +3,9 @@
 import 'dart:developer';
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
 import 'package:app2/core/assets/icons_url.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Cart/presentation/widgets/Dialog_Gift_For_Friend_Widget.dart';
+import 'package:app2/featchers/Cart/presentation/widgets/dialog_gift_for_friend_widget.dart';
 import 'package:flutter/material.dart';
 
 class GiftFriendWidget extends StatelessWidget {

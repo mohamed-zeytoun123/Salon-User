@@ -1,7 +1,7 @@
 // ignore_for_file: constant_identifier_names, file_names
 
-import 'package:app2/core/model/Body%20Appointment%20Card%20Model/Booking_Date_Time_model.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/model/Body%20Appointment%20Card%20Model/booking_date_time_model.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:flutter/material.dart';
 
 class BookingDateTimeWidget extends StatelessWidget {

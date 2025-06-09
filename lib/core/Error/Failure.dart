@@ -1,5 +1,4 @@
-// // ignore_for_file: file_names
-
+// ignore_for_file: file_names
 
 import 'package:dio/dio.dart';
 
@@ -63,70 +62,3 @@ class Failure {
     }
   }
 }
-// import 'package:dio/dio.dart';
-
-// class Failure {
-//   Failure({
-//     required this.message,
-//     required this.statusCode,
-//   });
-
-//   String message;
-//   int statusCode;
-
-//   factory Failure.handelExeptions(Exception error) {
-//     if (error is! DioException) {
-//       return Failure(message: "Error", statusCode: 0);
-//     } else {
-//       switch (error.type) {
-//         case DioExceptionType.connectionTimeout:
-//           return Failure(
-//               message: "Connection timeout. Please try again.",
-//               statusCode: error.response!.statusCode!);
-//         case DioExceptionType.sendTimeout:
-//           return Failure(
-//               message: "Send timeout. Please check your connection.",
-//               statusCode: error.response!.statusCode!);
-//         case DioExceptionType.receiveTimeout:
-//           return Failure(
-//               message: "Receive timeout. Server took too long to respond.",
-//               statusCode: error.response!.statusCode!);
-//         case DioExceptionType.badCertificate:
-//           return Failure(
-//               message: "Bad certificate. Untrusted connection.",
-//               statusCode: error.response!.statusCode!);
-//         case DioExceptionType.badResponse:
-//           if (error.response!.statusCode == 404) {
-//             return Failure(
-//                 statusCode: error.response!.statusCode!,
-//                 message: 'Bad response from server');
-//           } else if (error.response!.statusCode! == 500) {
-//             return Failure(
-//                 statusCode: error.response!.statusCode!,
-//                 message: 'Bad response from server');
-//           } else if (error.response!.statusCode! == 422) {
-//             return Failure(
-//                 statusCode: error.response!.statusCode!,
-//                 message: 'Bad response from server');
-//           } else {
-//             return Failure(
-//                 statusCode: error.response!.statusCode!,
-//                 message: 'Bad response from server');
-//           }
-
-//         case DioExceptionType.cancel:
-//           return Failure(
-//               message: "Request was cancelled.",
-//               statusCode: error.response!.statusCode!);
-//         case DioExceptionType.connectionError:
-//           return Failure(
-//               message: "No internet connection. Please check your network.",
-//               statusCode: 503);
-//         case DioExceptionType.unknown:
-//           return Failure(
-//               message: "An unknown error occurred.",
-//               statusCode: error.response!.statusCode!);
-//       }
-//     }
-//   }
-// }

@@ -2,10 +2,10 @@
 
 import 'dart:developer';
 import 'package:app2/core/Widgets/Bottom%20Sheet%20Widgets/Bottom_Sheet_Widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
-import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Home/presentation/widgets/About_Button_Widget.dart';
-import 'package:app2/featchers/Home/presentation/widgets/Loyalty_Points_Button_Widget.dart';
+import 'package:app2/core/colors/colors_faces.dart';
+import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Home/presentation/widgets/about_button_widget.dart';
+import 'package:app2/featchers/Home/presentation/widgets/loyalty_points_button_widget.dart';
 import 'package:flutter/material.dart';
 
 class ProviderInfoHaderWidget extends StatelessWidget {

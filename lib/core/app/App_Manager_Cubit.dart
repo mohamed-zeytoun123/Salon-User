@@ -1,7 +1,8 @@
+// ignore_for_file: file_names
+
 import 'dart:convert';
 import 'dart:developer';
-
-import 'package:app2/core/app/App_Manager_State.dart';
+import 'package:app2/core/app/app_manager_state.dart';
 import 'package:app2/core/constant/Cache_Keys.dart';
 import 'package:app2/featchers/auth/data/models/auth_response_model.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

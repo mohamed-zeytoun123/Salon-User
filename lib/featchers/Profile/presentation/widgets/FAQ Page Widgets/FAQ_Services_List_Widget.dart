@@ -1,7 +1,7 @@
 // ignore_for_file: file_names, non_constant_identifier_names
 
 import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/Profile/presentation/widgets/FAQ%20Page%20Widgets/Expandable_text_tile_widget.dart';
+import 'package:app2/featchers/Profile/presentation/widgets/FAQ%20Page%20Widgets/expandable_text_tile_widget.dart';
 import 'package:flutter/material.dart';
 
 Widget FAQServicesListWidget = Column(

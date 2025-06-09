@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
-import 'package:app2/core/style/Fonts_style.dart';
+import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/auth/presentation/manager/auth_cubit.dart';
 import 'package:app2/featchers/auth/presentation/pages/create_new_account_page.dart';
 import 'package:flutter/material.dart';

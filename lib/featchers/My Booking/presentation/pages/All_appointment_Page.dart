@@ -1,8 +1,8 @@
 // ignore_for_file: file_names
 
-import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/Appointment_Card_Widget.dart';
-import 'package:app2/core/Widgets/Custom_App_Bar_Widget.dart';
-import 'package:app2/core/colors/Colors_Faces.dart';
+import 'package:app2/featchers/Home/presentation/widgets/Appointment%20Card%20Widget/appointment_card_widget.dart';
+import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
+import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';
 import 'package:app2/featchers/My%20Booking/presentation/pages/All_appointment_Processing_Page.dart';
 import 'package:flutter/material.dart';

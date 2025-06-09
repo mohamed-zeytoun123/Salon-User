@@ -2,11 +2,11 @@
 
 import 'dart:developer';
 
-import 'package:app2/featchers/Cart/presentation/pages/Loyalty_Points_Page.dart';
-import 'package:app2/featchers/Cart/presentation/pages/Wallet_Page.dart';
-import 'package:app2/featchers/Payment/presentation/pages/Payment_Method_Page.dart';
-import 'package:app2/featchers/Profile/presentation/pages/Edit_Profile_Page.dart';
-import 'package:app2/featchers/Profile/presentation/pages/Favorite_Page.dart';
+import 'package:app2/featchers/Cart/presentation/pages/loyalty_points_page.dart';
+import 'package:app2/featchers/Cart/presentation/pages/wallet_page.dart';
+import 'package:app2/featchers/Payment/presentation/pages/payment_method_page.dart';
+import 'package:app2/featchers/Profile/presentation/pages/edit_profile_page.dart';
+import 'package:app2/featchers/Profile/presentation/pages/favorite_page.dart';
 import 'package:app2/featchers/Profile/presentation/pages/My_Order_Page.dart';
 import 'package:app2/featchers/auth/presentation/pages/Select_Location_Page.dart';
 import 'package:flutter/material.dart';
