@@ -8,7 +8,7 @@ import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_name_widge
 import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_phone_number_widget.dart';
 import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_passowrd_widget.dart';
 import 'package:app2/featchers/auth/presentation/widgets/Sign_Up_Header_Widget.dart';
-import 'package:app2/featchers/auth/presentation/widgets/label_Widget.dart';
+import 'package:app2/featchers/auth/presentation/widgets/label_widget.dart';
 
 class SignUpFormWidget extends StatelessWidget {
   TextEditingController fullNameController;

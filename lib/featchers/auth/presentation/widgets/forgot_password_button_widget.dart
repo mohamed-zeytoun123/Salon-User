@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 import 'package:app2/core/style/Fonts_style.dart';
-import 'package:app2/featchers/auth/presentation/pages/Phone_Number_Page.dart';
+import 'package:app2/featchers/auth/presentation/pages/phone_number_page.dart';
 import 'package:flutter/material.dart';
 
 class ForgotPasswordButtonWidget extends StatelessWidget {

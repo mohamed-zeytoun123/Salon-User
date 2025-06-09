@@ -2,7 +2,7 @@
 
 import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_phone_number_widget.dart';
 import 'package:app2/featchers/auth/presentation/pages/create_new_account_page.dart';
-import 'package:app2/featchers/auth/presentation/pages/Phone_Number_Page.dart';
+import 'package:app2/featchers/auth/presentation/pages/phone_number_page.dart';
 import 'package:app2/core/Widgets/Bottom%20Sheet%20Widgets/Bottom_Sheet_Widget.dart';
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
 import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_passowrd_widget.dart';

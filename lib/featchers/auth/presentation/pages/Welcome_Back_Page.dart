@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
-import 'package:app2/featchers/auth/presentation/pages/Login_Page.dart';
-import 'package:app2/featchers/auth/presentation/pages/Select_Location_Page.dart';
+import 'package:app2/featchers/auth/presentation/pages/login_page.dart';
+import 'package:app2/featchers/auth/presentation/pages/select_location_page.dart';
 import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/core/style/fonts_style.dart';
 import 'package:flutter/material.dart';
