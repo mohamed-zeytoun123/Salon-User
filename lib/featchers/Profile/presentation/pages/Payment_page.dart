@@ -29,7 +29,7 @@ class PaymentPage extends StatelessWidget {
           spacing: 10,
           children: [
             TextButtonWhiteWidget(
-              width: 174.5,
+              width: 150,
               hight: 56,
               onPressed: () {
                 log("chose");
@@ -40,7 +40,7 @@ class PaymentPage extends StatelessWidget {
                   FontsStyle.whit16w700.copyWith(color: Color(0xff43152A)),
             ),
             TextButtonWhiteWidget(
-              width: 174.5,
+              width: 150,
               hight: 56,
               onPressed: () {
                 log("Add Another Method");

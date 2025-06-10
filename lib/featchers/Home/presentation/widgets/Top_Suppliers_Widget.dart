@@ -36,15 +36,20 @@ class _TopSuppliersWidgetState extends State<TopSuppliersWidget> {
       spacing: 10,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        CustomHeaderWidget(
-            title: widget.title,
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => TopSuppliersPage()));
-              log("top salon");
-            },
-            titleStyle: FontsStyle.white24w400Meditative
-                .copyWith(color: Color(0xff43152A))),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 15),
+          child: CustomHeaderWidget(
+              title: widget.title,
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => TopSuppliersPage()));
+                log("top salon");
+              },
+              titleStyle: FontsStyle.white24w400Meditative
+                  .copyWith(color: Color(0xff43152A))),
+        ),
         SizedBox(
           height: 220,
           width: double.infinity,
@@ -60,6 +65,7 @@ class _TopSuppliersWidgetState extends State<TopSuppliersWidget> {
               return Center(child: Text("No Data"));
             } else {
               return ListView.separated(
+                padding: EdgeInsets.only(left: 15, right: 15),
                 scrollDirection: Axis.horizontal,
                 itemCount: state.listTopsSalon!.length,
                 itemBuilder: (context, index) {
@@ -68,7 +74,7 @@ class _TopSuppliersWidgetState extends State<TopSuppliersWidget> {
                     branch: state.listTopsSalon![index],
                   );
                 },
-                separatorBuilder: (context, index) => SizedBox(width: 10),
+                separatorBuilder: (context, index) => SizedBox(width: 13),
               );
             }
           }),

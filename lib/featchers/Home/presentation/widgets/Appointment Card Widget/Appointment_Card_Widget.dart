@@ -23,22 +23,20 @@ class AppointmentCardWidget extends StatelessWidget {
       child: SizedBox(
         height: 196,
         width: 383,
-        child: Row(
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(15),
-                  bottomLeft: Radius.circular(15)),
-              child: SizedBox(
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(15),
+          child: Row(
+            children: [
+              SizedBox(
                 height: double.infinity,
                 width: 16,
                 child: BackgroundColorPages(),
               ),
-            ),
-            BodyAppointmentCardWidget(
-              appointmentCardModel: bodyAppointmentCardModel,
-            )
-          ],
+              BodyAppointmentCardWidget(
+                appointmentCardModel: bodyAppointmentCardModel,
+              )
+            ],
+          ),
         ),
       ),
     );

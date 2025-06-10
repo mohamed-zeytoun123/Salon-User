@@ -21,7 +21,7 @@ class AllProductPage extends StatelessWidget {
         appBar: CustomAppBarWidget(title: "All Product"),
         backgroundColor: ColorsFaces.colorThird,
         body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
           child: AllProductWidget(),
         ),
       ),

@@ -1,5 +1,6 @@
 // ignore_for_file: file_names
 import 'package:app2/core/colors/colors_faces.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 class CustomBottomNavBarWidget extends StatelessWidget {
@@ -24,23 +25,23 @@ class CustomBottomNavBarWidget extends StatelessWidget {
       items: [
         BottomNavigationBarItem(
           icon: Icon(Icons.home),
-          label: "Home",
+          label: "Home".tr(),
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.explore_outlined),
-          label: 'Explore',
+          label: 'Explore'.tr(),
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.calendar_today_rounded),
-          label: 'Bookings',
+          label: 'Bookings'.tr(),
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.card_travel_outlined),
-          label: 'Order',
+          label: 'Order'.tr(),
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.account_circle_outlined),
-          label: 'Profile',
+          label: 'Profile'.tr(),
         ),
       ],
     );

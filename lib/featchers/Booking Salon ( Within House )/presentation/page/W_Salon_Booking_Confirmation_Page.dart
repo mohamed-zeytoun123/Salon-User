@@ -182,12 +182,24 @@ class _WSalonBookingConfirmationPageState
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     TextButtonWhiteWidget(
-                      width: 183,
+                        width: 160,
+                        hight: 55,
+                        label: "Continue Shopping",
+                        borderColor: Color(0xffE3E3E3),
+                        fontsStyle: FontsStyle.white13w400
+                            .copyWith(color: Color(0xff57597E)),
+                        buttonColor: ColorsFaces.colorThird,
+                        onPressed: () async {
+                          log("Continue Shopping");
+                          Navigator.pop(context);
+                        }),
+                    TextButtonWhiteWidget(
+                      width: 160,
                       hight: 55,
                       label: "Confirm Booking And Pay",
                       borderColor: Color(0xffE3E3E3),
-                      fontsStyle: FontsStyle.white13w400
-                          .copyWith(color: ColorsFaces.colorThird),
+                      fontsStyle: FontsStyle.white13w400.copyWith(
+                          fontSize: 12, color: ColorsFaces.colorThird),
                       buttonColor: Color(0xff3E0C0C),
                       onPressed: () {
                         // double finalCost = 0;
@@ -207,19 +219,6 @@ class _WSalonBookingConfirmationPageState
                         );
                       },
                     ),
-                    TextButtonWhiteWidget(
-                        width: 183,
-                        hight: 55,
-                        label: "Continue Shopping",
-                        borderColor: Color(0xffE3E3E3),
-                        fontsStyle: FontsStyle.white13w400
-                            .copyWith(color: Color(0xff57597E)),
-                        buttonColor: ColorsFaces.colorThird,
-                        onPressed: () async {
-                          log("Continue Shopping");
-
-                          // Navigator.pop(context);
-                        }),
                   ],
                 ),
               ),

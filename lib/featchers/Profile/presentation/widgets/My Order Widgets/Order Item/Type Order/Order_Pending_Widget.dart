@@ -36,7 +36,7 @@ class OrderPendingWidget extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               TextButtonWhiteWidget(
-                width: 160,
+                width: 130,
                 hight: 32,
                 onPressed: () {
                   Navigator.push(
@@ -50,7 +50,7 @@ class OrderPendingWidget extends StatelessWidget {
                 borderColor: ColorsFaces.colorSecondary,
               ),
               TextButtonWhiteWidget(
-                width: 160,
+                width: 130,
                 hight: 32,
                 onPressed: () {
                   log("View Order");

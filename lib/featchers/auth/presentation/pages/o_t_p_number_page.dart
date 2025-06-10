@@ -31,7 +31,7 @@ class OtpNumberPage extends StatelessWidget {
                 height: 615,
                 child: Padding(
                   padding:
-                      const EdgeInsets.symmetric(vertical: 30, horizontal: 44),
+                      const EdgeInsets.symmetric(vertical: 30, horizontal: 20),
                   child: SingleChildScrollView(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,

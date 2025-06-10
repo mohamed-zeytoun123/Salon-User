@@ -24,18 +24,20 @@ class WSalonInvoiceDetailsPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: ColorsFaces.colorThird,
       appBar: CustomAppBarWidget(title: "Invoice details"),
-      body: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
-        child: Column(
-          spacing: 15,
-          children: [
-            LocationChangeTileWidget(),
-            CardDetailsProviderServiceWidget(),
-            InputPromoCodeWidget(),
-            LoyaltyPointsRedeemWidget(),
-            ExpandableServicePriceTile(items: DummyData.invoiceListDUMMY),
-            StaticPriceDeliveryWidget(),
-          ],
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
+          child: Column(
+            spacing: 15,
+            children: [
+              LocationChangeTileWidget(),
+              CardDetailsProviderServiceWidget(),
+              InputPromoCodeWidget(),
+              LoyaltyPointsRedeemWidget(),
+              ExpandableServicePriceTile(items: DummyData.invoiceListDUMMY),
+              StaticPriceDeliveryWidget(),
+            ],
+          ),
         ),
       ),
       bottomNavigationBar: Container(

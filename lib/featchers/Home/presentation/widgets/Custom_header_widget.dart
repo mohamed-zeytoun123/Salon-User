@@ -1,6 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:app2/core/style/fonts_style.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 class CustomHeaderWidget extends StatelessWidget {
@@ -21,7 +22,7 @@ class CustomHeaderWidget extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text(title, style: titleStyle),
+        Text(title, style: titleStyle).tr(),
         if (onTap != null)
           InkWell(
             onTap: onTap,
@@ -30,8 +31,9 @@ class CustomHeaderWidget extends StatelessWidget {
                   spacing: 10,
                   children: [
                     Text("See All",
-                        style: FontsStyle.white14w500
-                            .copyWith(color: Color(0xff515151))),
+                            style: FontsStyle.white14w500
+                                .copyWith(color: Color(0xff515151)))
+                        .tr(),
                     Icon(Icons.arrow_forward_ios_outlined,
                         size: 20, color: Color(0xff000000)),
                   ],

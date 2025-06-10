@@ -7,7 +7,7 @@ import 'package:app2/core/Widgets/Form%20Button%20Widget/text_button_color_main_
 import 'package:app2/core/style/app_snack_bar.dart';
 import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/core/Widgets/Text%20Form%20Field%20Widgets/input_passowrd_widget.dart';
-import 'package:app2/featchers/Profile/presentation/pages/My_Profile_OTP_Number_Page.dart';
+import 'package:app2/featchers/Profile/presentation/pages/my_profile_o_t_p_number_page.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
@@ -83,7 +83,7 @@ class MyProfileChangePasswordPage extends StatelessWidget {
                                       context,
                                       MaterialPageRoute(
                                           builder: (context) =>
-                                              MyProfileOtpNumberPage()));
+                                              MyProfileOTPNumberPage()));
                                 }
                               }
                               //!12121212121212121212121212121212121212121212121212121212121212121212121212

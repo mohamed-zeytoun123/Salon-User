@@ -103,7 +103,6 @@ class _BookingTimeAndDateSelectorSectionWidgetState
                   optionselect = optionselect.copyWith(
                     date: selectDate,
                   );
-
                   updateOptionsForDate(selectDate);
                 });
               }

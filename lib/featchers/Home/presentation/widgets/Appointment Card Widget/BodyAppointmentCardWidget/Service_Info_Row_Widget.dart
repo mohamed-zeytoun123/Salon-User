@@ -17,7 +17,7 @@ class ServiceInfoRowWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      spacing: 10,
+      spacing: 6,
       children: [
         Row(
           spacing: 5,

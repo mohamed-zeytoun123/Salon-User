@@ -9,6 +9,7 @@ import 'package:app2/featchers/Profile/presentation/pages/edit_profile_page.dart
 import 'package:app2/featchers/Profile/presentation/pages/favorite_page.dart';
 import 'package:app2/featchers/Profile/presentation/pages/My_Order_Page.dart';
 import 'package:app2/featchers/auth/presentation/pages/Select_Location_Page.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 import 'package:app2/core/style/Fonts_style.dart';
@@ -33,7 +34,7 @@ class ItemAccountWidget extends StatelessWidget {
             Text("Account",
                 style: FontsStyle.white24w400Meditative.copyWith(
                   color: Color(0xff43152A),
-                )),
+                )).tr(),
             CustomBorderButtonWidget(
                 text: "Edit Profile",
                 onTap: () {

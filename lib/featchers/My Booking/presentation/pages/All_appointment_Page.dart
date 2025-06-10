@@ -16,27 +16,25 @@ class AllAppointmentPage extends StatelessWidget {
       appBar: CustomAppBarWidget(
           title: "All Upcoming appointment", isShowBackArrow: false),
       backgroundColor: ColorsFaces.colorThird,
-      body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-        child: ListView.separated(
-          itemCount: DummyData.appointmentsDUMMY.length,
-          itemBuilder: (context, index) {
-            return InkWell(
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) => AllAppointmentProcessingPage()),
-                );
-              },
-              child: AppointmentCardWidget(
-                  bodyAppointmentCardModel: DummyData.appointmentsDUMMY[index]),
-            );
-          },
-          separatorBuilder: (BuildContext context, int index) {
-            return SizedBox(height: 10);
-          },
-        ),
+      body: ListView.separated(
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
+        itemCount: DummyData.appointmentsDUMMY.length,
+        itemBuilder: (context, index) {
+          return InkWell(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => AllAppointmentProcessingPage()),
+              );
+            },
+            child: AppointmentCardWidget(
+                bodyAppointmentCardModel: DummyData.appointmentsDUMMY[index]),
+          );
+        },
+        separatorBuilder: (BuildContext context, int index) {
+          return SizedBox(height: 10);
+        },
       ),
     );
   }

@@ -13,11 +13,11 @@ class TranslationsTese extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.language),
             onPressed: () {
-              if (context.locale.languageCode == 'en') {
+             if (context.locale.languageCode == 'en') {
                 context.setLocale(Locale('ar'));
               } else {
                 context.setLocale(Locale('en'));
-              }
+              } 
             },
           )
         ],

@@ -6,6 +6,7 @@ import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widge
 import 'package:app2/core/assets/icons_url.dart';
 import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Cart/presentation/pages/loyalty_points_page.dart';
 import 'package:flutter/material.dart';
 
 class LoyaltyPointsRedeemWidget extends StatelessWidget {
@@ -54,6 +55,8 @@ class LoyaltyPointsRedeemWidget extends StatelessWidget {
           buttonColor: const Color(0xff3E0C0C),
           onPressed: () {
             log("Redeem points");
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => LoyaltyPointsPage()));
           },
         ),
       ],

@@ -1,6 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:app2/core/colors/colors_faces.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 class CustomContainerWidget extends StatelessWidget {
@@ -24,7 +25,7 @@ class CustomContainerWidget extends StatelessWidget {
     return InkWell(
       onTap: onTap,
       child: Container(
-        width: 170,
+        width: 157,
         height: 66.55,
         decoration: BoxDecoration(
           gradient: ColorsFaces.colorMain,
@@ -53,14 +54,14 @@ class CustomContainerWidget extends StatelessWidget {
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
                         color: Colors.white),
-                  ),
+                  ).tr(),
                   Text(
                     subtitle,
                     style: TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.w400,
                         color: Color(0xffB7B7B7)),
-                  ),
+                  ).tr(),
                 ],
               ),
               Icon(

@@ -8,8 +8,8 @@ import 'package:app2/core/colors/Background_color_pages.dart';
 import 'package:app2/core/style/fonts_style.dart';
 import 'package:flutter/material.dart';
 
-class MyProfileOtpNumberPage extends StatelessWidget {
-  const MyProfileOtpNumberPage({super.key});
+class MyProfileOTPNumberPage extends StatelessWidget {
+  const MyProfileOTPNumberPage({super.key});
 
   @override
   Widget build(BuildContext context) {

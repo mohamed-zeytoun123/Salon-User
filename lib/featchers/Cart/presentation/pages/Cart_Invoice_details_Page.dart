@@ -32,7 +32,7 @@ class CartInvoiceDetailsPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             TextButtonWhiteWidget(
-              width: 250,
+              width: 230,
               hight: 56,
               label: "Continue to Payment",
               borderColor: const Color(0xffE3E3E3),
@@ -71,16 +71,18 @@ class CartInvoiceDetailsPage extends StatelessWidget {
           ],
         ),
       ),
-      body: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
-        child: Column(
-          spacing: 10,
-          children: [
-            LocationChangeTileWidget(),
-            InputPromoCodeWidget(),
-            ExpandableServicePriceTile(items: DummyData.invoiceListDUMMY),
-            StaticPriceDeliveryWidget(),
-          ],
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
+          child: Column(
+            spacing: 10,
+            children: [
+              LocationChangeTileWidget(),
+              InputPromoCodeWidget(),
+              ExpandableServicePriceTile(items: DummyData.invoiceListDUMMY),
+              StaticPriceDeliveryWidget(),
+            ],
+          ),
         ),
       ),
     );

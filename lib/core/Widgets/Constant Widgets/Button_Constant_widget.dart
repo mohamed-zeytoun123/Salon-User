@@ -29,8 +29,8 @@ class ButtonConstantWidget {
   static Widget customContainerProduct(BuildContext context, int productCount) {
     return CustomContainerWidget(
       imagePath: IconsUrl.group,
-      title: "Product",
-      subtitle: "$productCount Product",
+      title: "Products",
+      subtitle: "$productCount Products",
       icon: Icons.arrow_forward_ios,
       onTap: () {
         log("Product");

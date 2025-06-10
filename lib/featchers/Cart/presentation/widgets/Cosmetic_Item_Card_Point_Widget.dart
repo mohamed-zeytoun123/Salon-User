@@ -37,7 +37,7 @@ class CosmeticItemCardPointWidget extends StatelessWidget {
                   Image.network(
                     item.imageUrl,
                     width: double.infinity,
-                    height: 109,
+                    height: 90,
                     fit: BoxFit.cover,
                   ),
                   Positioned.fill(
@@ -56,7 +56,7 @@ class CosmeticItemCardPointWidget extends StatelessWidget {
                   ),
                   Positioned(
                     right: 10,
-                    top: 90,
+                    top: 70,
                     child: Text(
                       item.serviceType.name,
                       style: TextStyle(
@@ -90,7 +90,7 @@ class CosmeticItemCardPointWidget extends StatelessWidget {
           ),
           Positioned(
             left: 9,
-            top: 130,
+            top: 110,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -108,7 +108,7 @@ class CosmeticItemCardPointWidget extends StatelessWidget {
                         .copyWith(color: Color(0xff666666))),
                 Padding(
                   padding:
-                      const EdgeInsets.symmetric(vertical: 5, horizontal: 40),
+                      const EdgeInsets.symmetric(vertical: 5, horizontal: 30),
                   child: Column(
                     children: [
                       Row(

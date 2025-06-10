@@ -22,35 +22,38 @@ class ServicesCategoryPage extends StatelessWidget {
       child: Scaffold(
         backgroundColor: ColorsFaces.colorThird,
         appBar: CustomAppBarWidget(title: "Home"),
-        body: Padding(
-          padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            spacing: 20,
-            children: [
-              RowSearchFilterWidget(),
-              BlocBuilder<HomeCubit, HomeState>(builder: (context, state) {
-                if (state.isLoadingService) {
-                  return CircularProgressIndicator();
-                }
-                if (state.errorService != null) {
-                  return Center(child: Text(state.errorService!.message));
-                }
-                if (state.serviceList == null || state.serviceList!.isEmpty) {
-                  return const Center(child: Text("No Services Available"));
-                } else {
-                  return HorizontalImageGridWidget(
-                    heightForm: 667.364013671875,
-                    widthForm: 379.15625,
-                    heightItem: 121.47280883789062,
-                    widthItem: 183.578125,
-                    numItem: 2,
-                    is6Item: true,
-                    llistServices: state.serviceList!,
-                  );
-                }
-              })
-            ],
+        body: SingleChildScrollView(
+          physics: BouncingScrollPhysics(),
+          child: Padding(
+            padding: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              spacing: 20,
+              children: [
+                RowSearchFilterWidget(),
+                BlocBuilder<HomeCubit, HomeState>(builder: (context, state) {
+                  if (state.isLoadingService) {
+                    return CircularProgressIndicator();
+                  }
+                  if (state.errorService != null) {
+                    return Center(child: Text(state.errorService!.message));
+                  }
+                  if (state.serviceList == null || state.serviceList!.isEmpty) {
+                    return const Center(child: Text("No Services Available"));
+                  } else {
+                    return HorizontalImageGridWidget(
+                      heightForm: 667.364013671875,
+                      widthForm: 379.15625,
+                      heightItem: 121.47280883789062,
+                      widthItem: 183.578125,
+                      numItem: 2,
+                      is6Item: true,
+                      llistServices: state.serviceList!,
+                    );
+                  }
+                })
+              ],
+            ),
           ),
         ),
       ),

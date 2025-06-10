@@ -15,6 +15,7 @@ import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Location_Widget.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Notification_Button_Widget.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -43,11 +44,11 @@ class HomePage extends StatelessWidget {
           child: BlocBuilder<AppManagerCubit, AppManagerState>(
               builder: (context, appState) {
             final userName =
-                appState.authResponseModel?.user.name ?? "User Name";
+                appState.authResponseModel?.user.name ?? "User Name".tr();
             return Text(
               userName,
               overflow: TextOverflow.ellipsis,
-              style: FontsStyle.c28w400Meditative,
+              style: FontsStyle.c28w400Meditative.copyWith(fontSize: 24),
             );
           }),
         ),
@@ -73,7 +74,7 @@ class HomePage extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+          padding: EdgeInsets.symmetric(vertical: 15),
           child: Column(
             spacing: 10,
             crossAxisAlignment: CrossAxisAlignment.start,

@@ -32,6 +32,7 @@ import 'package:app2/featchers/Home/data/model/dummy_data.dart';
 import 'package:app2/featchers/Home/presentation/pages/guest_page.dart';
 import 'package:app2/featchers/Home/presentation/pages/Home_page.dart';
 import 'package:app2/featchers/Home/presentation/pages/nearest_fitch_page.dart';
+import 'package:app2/featchers/Home/presentation/pages/provider_profile_page.dart';
 import 'package:app2/featchers/Home/presentation/pages/services_category_page.dart';
 import 'package:app2/featchers/Home/presentation/pages/services_details_page.dart';
 import 'package:app2/featchers/Home/presentation/pages/Home_Content_Page.dart';
@@ -44,25 +45,25 @@ import 'package:app2/featchers/Notification/Presentation/pages/Notification_Page
 import 'package:app2/featchers/Payment/presentation/pages/payment_method_page.dart';
 import 'package:app2/featchers/Product%20Details/presentation/pages/product_details_page.dart';
 import 'package:app2/featchers/Profile/presentation/pages/edit_profile_page.dart';
-import 'package:app2/featchers/Profile/presentation/pages/fAQ_page.dart';
+import 'package:app2/featchers/Profile/presentation/pages/f_a_q_page.dart';
 import 'package:app2/featchers/Profile/presentation/pages/favorite_page.dart';
 import 'package:app2/featchers/Profile/presentation/pages/My_Order_Page.dart';
 import 'package:app2/featchers/Profile/presentation/pages/my_profile_change_password_page.dart';
 import 'package:app2/featchers/Profile/presentation/pages/my_profile_guest_page.dart';
-import 'package:app2/featchers/Profile/presentation/pages/My_Profile_OTP_Number_Page.dart';
+import 'package:app2/featchers/Profile/presentation/pages/My_Profile_O_T_P_Number_Page.dart';
 import 'package:app2/featchers/Profile/presentation/pages/My_Profile_Page.dart';
 import 'package:app2/featchers/Profile/presentation/pages/payment_page.dart';
 import 'package:app2/featchers/Profile/presentation/pages/privacy_poicy_page.dart';
 import 'package:app2/featchers/Profile/presentation/pages/rating_order_page.dart';
 import 'package:app2/featchers/auth/presentation/pages/change_password_page.dart';
 import 'package:app2/featchers/auth/presentation/pages/create_new_account_page.dart';
-import 'package:app2/featchers/auth/presentation/pages/logo_page.dart';
 import 'package:app2/featchers/auth/presentation/pages/login_page.dart';
 import 'package:app2/featchers/auth/presentation/pages/o_t_p_number_page.dart';
 import 'package:app2/featchers/auth/presentation/pages/o_t_p_new_number_page.dart';
 import 'package:app2/featchers/auth/presentation/pages/phone_number_page.dart';
 import 'package:app2/featchers/auth/presentation/pages/Select_Location_Page.dart';
 import 'package:app2/featchers/auth/presentation/pages/failed_success_page.dart';
+import 'package:app2/featchers/auth/presentation/pages/welcome_back_page.dart';
 import 'package:app2/transelate.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
@@ -88,7 +89,7 @@ void main() async {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+  // This widget is the root of yةشour application.
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
@@ -102,15 +103,18 @@ class MyApp extends StatelessWidget {
           theme: ThemeData(primarySwatch: Colors.blue),
           localizationsDelegates: context.localizationDelegates,
           supportedLocales: context.supportedLocales,
-          locale: context.locale,
+          locale: appState.appLocale ?? context.locale,
           //!((((((((((((((((((((((((((((((((()))))))))))))))))))))))))))))))))
-          // home: LogoPage(),
-          home: LoginPage(),
+          home: WelcomeBackPage(),
+          // home: LoginPage(),
           // home: ServiceDetailsPage(
           //   item: DummyData.imageItemList[1],
           // ),
-          // home: WalletPage(),
+          // home: ProviderProfilePage(),
           // home: FrelanceProfilePage(),
+          // home: LoyaltyPointsPage(),
+          // home: WServicesDetailsPage(),
+          // home: PaymentMethodPage(),
           // home: HomeContentPage(),
           // home: ServicesDetailsPage(),
           // home: NotificationPage(),

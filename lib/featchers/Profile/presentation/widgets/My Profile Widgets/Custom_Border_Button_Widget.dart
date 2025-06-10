@@ -1,5 +1,6 @@
 // ignore_for_file: file_names
 
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 class CustomBorderButtonWidget extends StatelessWidget {
@@ -22,7 +23,7 @@ class CustomBorderButtonWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       color: Colors.transparent,
-      borderRadius: BorderRadius.circular(15), 
+      borderRadius: BorderRadius.circular(15),
       clipBehavior: Clip.hardEdge,
       child: InkWell(
         onTap: onTap,
@@ -47,7 +48,7 @@ class CustomBorderButtonWidget extends StatelessWidget {
                   fontWeight: FontWeight.w700,
                   color: colorText,
                 ),
-              ),
+              ).tr(),
               if (showIcon)
                 Icon(
                   Icons.arrow_forward_ios_outlined,

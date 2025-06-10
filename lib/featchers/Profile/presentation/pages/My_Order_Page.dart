@@ -17,12 +17,6 @@ class MyOrderPage extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: const Color(0xffFFFFFF),
-          // leading: IconButton(
-          //   onPressed: () {
-          //     Navigator.pop(context);
-          //   },
-          //   icon: const Icon(Icons.arrow_back_ios_new, color: Colors.black),
-          // ),
           title: Text(
             "My Order",
             style: FontsStyle.c28w400Meditative.copyWith(
@@ -37,10 +31,15 @@ class MyOrderPage extends StatelessWidget {
                 const Divider(
                     color: Color(0xffD9D9D9), thickness: 1.0, height: 1),
                 TabBar(
-                  unselectedLabelStyle: FontsStyle.white24w400Meditative
-                      .copyWith(color: Color(0xff4A172E)),
-                  labelStyle: FontsStyle.white24w400Meditative
-                      .copyWith(color: Color(0xff4A172E)),
+                  unselectedLabelStyle:
+                      FontsStyle.white24w400Meditative.copyWith(
+                    fontSize: 22,
+                    color: Color(0xff4A172E),
+                  ),
+                  labelStyle: FontsStyle.white24w400Meditative.copyWith(
+                    color: Color(0xff4A172E),
+                    fontSize: 22,
+                  ),
                   indicatorColor: Color(0xFF4E1830),
                   indicatorWeight: 3,
                   labelColor: Color(0xFF4E1830),
@@ -58,7 +57,7 @@ class MyOrderPage extends StatelessWidget {
         ),
         backgroundColor: ColorsFaces.colorThird,
         body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
           child: const TabBarView(
             children: [
               ListOrderPendingWidget(),

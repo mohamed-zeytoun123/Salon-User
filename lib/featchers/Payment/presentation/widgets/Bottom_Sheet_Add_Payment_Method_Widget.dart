@@ -27,7 +27,7 @@ class BottomSheetAddPaymentMethodWidget extends StatelessWidget {
     return BottomSheetWidget(
       height: 500,
       child: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 25, vertical: 10),
+        padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
         child: SingleChildScrollView(
           child: Column(
             spacing: 10,
@@ -55,6 +55,7 @@ class BottomSheetAddPaymentMethodWidget extends StatelessWidget {
                         .copyWith(color: Color(0xff000000)),
                   ),
                   InputPhoneNumberWidget(controller: controllerNumber),
+                  SizedBox(height: 5),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -70,7 +71,7 @@ class BottomSheetAddPaymentMethodWidget extends StatelessWidget {
                           InputDayAndMonthWidget(
                             controller: controllerDate,
                             hintText: 'MM / YY',
-                            width: 170,
+                            width: 145,
                           ),
                         ],
                       ),
@@ -86,7 +87,7 @@ class BottomSheetAddPaymentMethodWidget extends StatelessWidget {
                           InputCVVWidget(
                             controller: controllerCVV,
                             hintText: "-----",
-                            width: 170,
+                            width: 145,
                           ),
                         ],
                       )
@@ -100,7 +101,7 @@ class BottomSheetAddPaymentMethodWidget extends StatelessWidget {
                 spacing: 10,
                 children: [
                   TextButtonWhiteWidget(
-                    width: 174.5,
+                    width: 150,
                     hight: 56,
                     onPressed: () {
                       log("Cancel");
@@ -113,7 +114,7 @@ class BottomSheetAddPaymentMethodWidget extends StatelessWidget {
                         .copyWith(color: Color(0xff1A1A1A)),
                   ),
                   TextButtonColorMainWidget(
-                    width: 174.5,
+                    width: 150,
                     hight: 56,
                     label: "Confirm",
                     onPressed: () {

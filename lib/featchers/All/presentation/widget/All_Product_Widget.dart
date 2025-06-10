@@ -3,6 +3,7 @@ import 'package:app2/core/Widgets/row_search_filter_widget.dart';
 import 'package:app2/featchers/Home/data/model/Product_model_dummy.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Product_Card_widget.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 class AllProductWidget extends StatefulWidget {
@@ -85,7 +86,7 @@ class _AllProductWidgetState extends State<AllProductWidget> {
         });
       },
       child: Container(
-        width: 120,
+        width: 100,
         height: 42,
         alignment: Alignment.center,
         decoration: BoxDecoration(
@@ -107,7 +108,7 @@ class _AllProductWidgetState extends State<AllProductWidget> {
             fontSize: 16,
             fontWeight: FontWeight.bold,
           ),
-        ),
+        ).tr(),
       ),
     );
   }

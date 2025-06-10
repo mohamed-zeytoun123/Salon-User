@@ -17,7 +17,7 @@ class ServicesFetchPage extends StatelessWidget {
       backgroundColor: Color(0xffFFFFFF),
       appBar: CustomAppBarWidget(title: "${model.name} Services"),
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
         child: Column(
           spacing: 20,
           children: [

@@ -17,14 +17,18 @@ class SuggestedProductsWidget extends StatelessWidget {
       spacing: 10,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        CustomHeaderWidget(
-            title: "Suggested products",
-            titleStyle: FontsStyle.c24w400Meditative
-                .copyWith(color: Color(0xff4A172E))),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 15),
+          child: CustomHeaderWidget(
+              title: "Suggested products",
+              titleStyle: FontsStyle.c24w400Meditative
+                  .copyWith(color: Color(0xff4A172E))),
+        ),
         SizedBox(
           height: 218,
           width: double.infinity,
           child: ListView.separated(
+              padding: EdgeInsets.only(left: 15, right: 15),
               scrollDirection: Axis.horizontal,
               itemBuilder: (context, index) {
                 return ProductCardWidget(

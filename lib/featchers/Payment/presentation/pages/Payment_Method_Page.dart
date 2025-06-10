@@ -47,7 +47,7 @@ class _PaymentMethodPageState extends State<PaymentMethodPage> {
           spacing: 10,
           children: [
             TextButtonWhiteWidget(
-              width: 174.5,
+              width: 155,
               hight: 56,
               onPressed: () {
                 log("Add Another Method");
@@ -70,7 +70,7 @@ class _PaymentMethodPageState extends State<PaymentMethodPage> {
                   FontsStyle.white14w700.copyWith(color: Color(0xff1A1A1A)),
             ),
             TextButtonColorMainWidget(
-                width: 174.5,
+                width: 155,
                 hight: 56,
                 label: "Chose",
                 onPressed: () {

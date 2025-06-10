@@ -24,7 +24,7 @@ class SignUpPromptWidget extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.only(top: 15, bottom: 25),
+          padding: const EdgeInsets.only(top: 15, bottom: 15),
           child: TextButtonWhiteWidget(
             width: 280,
             hight: 46,

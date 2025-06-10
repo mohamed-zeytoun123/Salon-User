@@ -20,20 +20,26 @@ class UpcomingAppointmentCardWidget extends StatelessWidget {
       spacing: 10,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        CustomHeaderWidget(
-          title: "Upcoming appointment",
-          titleStyle: FontsStyle.white24w400Meditative
-              .copyWith(color: Color(0xff43152A)),
-          onTap: () {
-            log("Upcoming appointment");
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => AllAppointmentPage()));
-          },
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 15),
+          child: CustomHeaderWidget(
+            title: "Upcoming appointment",
+            titleStyle: FontsStyle.white24w400Meditative
+                .copyWith(color: Color(0xff43152A)),
+            onTap: () {
+              log("Upcoming appointment");
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AllAppointmentPage()));
+            },
+          ),
         ),
         SizedBox(
           width: double.infinity,
           height: 197,
           child: ListView.separated(
+              padding: EdgeInsets.only(left: 15, right: 15),
               scrollDirection: Axis.horizontal,
               itemBuilder: (context, index) {
                 return InkWell(
@@ -45,7 +51,8 @@ class UpcomingAppointmentCardWidget extends StatelessWidget {
                                 AllAppointmentProcessingPage()));
                   },
                   child: AppointmentCardWidget(
-                      bodyAppointmentCardModel: DummyData.appointmentsDUMMY[index]),
+                      bodyAppointmentCardModel:
+                          DummyData.appointmentsDUMMY[index]),
                 );
               },
               separatorBuilder: (context, index) => SizedBox(

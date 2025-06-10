@@ -33,7 +33,7 @@ class ContentCardDetailsProviderServiceWidget extends StatelessWidget {
           borderType: BorderType.Rect,
           padding: EdgeInsets.zero,
           child: SizedBox(
-            width: 290,
+            width: 246,
           ),
         ),
         Column(

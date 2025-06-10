@@ -105,7 +105,7 @@ class _ToggleOptionSelectorWidgetState
     return AnimatedContainer(
       duration: const Duration(milliseconds: 300),
       alignment: Alignment.center,
-      width: 110,
+      width: 100,
       height: 34,
       margin: const EdgeInsets.only(bottom: 10),
       decoration: BoxDecoration(

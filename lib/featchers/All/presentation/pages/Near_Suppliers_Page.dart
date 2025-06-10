@@ -20,7 +20,7 @@ class NearSuppliersPage extends StatelessWidget {
         appBar: CustomAppBarWidget(title: "Near Suppliers"),
         backgroundColor: ColorsFaces.colorThird,
         body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
           child: TopTabBarSupplienrsWidget(
             isRowSearchTop: true,
           ),

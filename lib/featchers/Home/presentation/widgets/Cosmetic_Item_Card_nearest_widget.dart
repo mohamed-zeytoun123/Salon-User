@@ -44,7 +44,7 @@ class CosmeticItemNearestCardWidget extends StatelessWidget {
                   Image.network(
                     item.imageUrl,
                     width: double.infinity,
-                    height: 109,
+                    height: 90,
                     fit: BoxFit.cover,
                   ),
                   Positioned.fill(
@@ -63,7 +63,7 @@ class CosmeticItemNearestCardWidget extends StatelessWidget {
                   ),
                   Positioned(
                     right: 10,
-                    top: 90,
+                    top: 70,
                     child: Text(
                       model.provider.type.providerTypeText,
                       style: TextStyle(
@@ -97,7 +97,7 @@ class CosmeticItemNearestCardWidget extends StatelessWidget {
           ),
           Positioned(
             left: 9,
-            top: 130,
+            top: 110,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,

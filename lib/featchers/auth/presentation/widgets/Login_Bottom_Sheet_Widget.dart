@@ -53,11 +53,14 @@ class LoginBottomSheetWidget extends StatelessWidget {
                 .saveUserDataInAppState(state.authResponseModel!);
           }
 
+          // 👇 احفظ المرجع قبل تغيير الـ context
+          final authCubit = BlocProvider.of<AuthCubit>(context);
+
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(
               builder: (_) => BlocProvider.value(
-                value: BlocProvider.of<AuthCubit>(context),
+                value: authCubit,
                 child: HomeContentPage(),
               ),
             ),

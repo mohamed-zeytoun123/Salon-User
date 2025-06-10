@@ -33,7 +33,7 @@ class ServiceCardWithAddButtonWidget extends StatelessWidget {
           children: [
             ServiceInfoRowWidget(isDarkPrice: isFreelance, serviceInfo: model),
             AddProductWidget(
-              isFreelance: false,
+              isFreelance: isFreelance,
               model: model,
             ),
           ],

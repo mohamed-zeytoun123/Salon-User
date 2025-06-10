@@ -94,9 +94,6 @@ class ProductCardWidget extends StatelessWidget {
                   ),
                   Column(
                     children: [
-                      SizedBox(
-                        height: 10,
-                      ),
                       if (!isReadyToPurchase)
                         Text(
                           product.description,

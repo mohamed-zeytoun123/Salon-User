@@ -3,6 +3,7 @@
 import 'dart:developer';
 import 'package:app2/core/style/fonts_style.dart';
 import 'package:app2/featchers/Home/presentation/widgets/Bottom%20Sheet%20Location%20Widgets/select_location_bottom_sheet_widget.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 class LocationWidget extends StatefulWidget {
@@ -45,12 +46,12 @@ class _LocationWidgetState extends State<LocationWidget> {
           Text(
             "Your Location",
             style: FontsStyle.whit12w700.copyWith(color: Color(0xff252525)),
-          ),
+          ).tr(),
           Row(
             children: [
               Expanded(
                 child: Text(
-                  label,
+                  label.tr(),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   style:

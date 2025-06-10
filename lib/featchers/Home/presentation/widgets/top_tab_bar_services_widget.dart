@@ -148,7 +148,7 @@ class _TopTabBarServicesWidgetState extends State<TopTabBarServicesWidget> {
         // _fetchData(); // 🔁 Fetch data when tab changes
       },
       child: Container(
-        width: 120,
+        width: 100,
         height: 42,
         alignment: Alignment.center,
         decoration: BoxDecoration(

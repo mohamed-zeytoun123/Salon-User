@@ -34,12 +34,12 @@ class _BookingAnAppointmentFreelanceProductPageState
         width: double.infinity,
         height: 100,
         child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 20),
+          padding: EdgeInsets.symmetric(horizontal: 10),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               TextButtonWhiteWidget(
-                  width: 183,
+                  width: 160,
                   hight: 55,
                   label: "Continue Shopping",
                   borderColor: Color(0xffE3E3E3),
@@ -54,11 +54,11 @@ class _BookingAnAppointmentFreelanceProductPageState
                     setState(() {});
                   }),
               TextButtonWhiteWidget(
-                width: 183,
+                width: 160,
                 hight: 55,
                 label: "Confirm Booking And Pay",
                 borderColor: Color(0xffE3E3E3),
-                fontsStyle: FontsStyle.white13w400
+                fontsStyle: FontsStyle.whit12w400
                     .copyWith(color: ColorsFaces.colorThird),
                 buttonColor: Color(0xff3E0C0C),
                 onPressed: () {

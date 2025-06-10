@@ -42,7 +42,7 @@ class _FreelanceServicesProductReviewTabsWidgetState
           controller: _tabController,
           indicatorWeight: 4,
           labelColor: Color.fromARGB(255, 82, 24, 47),
-          labelStyle: FontsStyle.c24w400Meditative,
+          labelStyle: FontsStyle.c24w400Meditative.copyWith(fontSize: 17),
           unselectedLabelColor: const Color(0xffA4A4A4),
           indicatorSize: TabBarIndicatorSize.tab,
           indicatorColor: Color.fromARGB(255, 82, 24, 47),
@@ -58,7 +58,7 @@ class _FreelanceServicesProductReviewTabsWidgetState
             controller: _tabController,
             children: [
               AboutTapWidget(),
-              ServicesListWidget(isFreelance: false),
+              ServicesListWidget(isFreelance: true),
               ProductListWidget(),
               TapReviewWidget(
                 listRate: DummyData.reviewsDUMMY,

@@ -1,5 +1,6 @@
 // ignore_for_file: file_names
 
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:app2/core/style/fonts_style.dart';
 
@@ -34,7 +35,7 @@ class CustomAppBarWidget extends StatelessWidget
         style: FontsStyle.c28w400Meditative.copyWith(
           color: const Color(0xff000000),
         ),
-      ),
+      ).tr(),
       bottom: const PreferredSize(
         preferredSize: Size.fromHeight(1.0),
         child: Divider(color: Color(0xffD9D9D9), thickness: 1.0),

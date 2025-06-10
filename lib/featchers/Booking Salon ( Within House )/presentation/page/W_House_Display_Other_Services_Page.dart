@@ -4,6 +4,7 @@ import 'package:app2/core/Widgets/custom_app_bar_widget.dart';
 import 'package:app2/core/Widgets/Form%20Button%20Widget/Text_button_white_widget.dart';
 import 'package:app2/core/colors/colors_faces.dart';
 import 'package:app2/core/style/fonts_style.dart';
+import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/page/w_house_booking_confirmation_page.dart';
 import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/widget/Fixed_Appointment_Card_Widget.dart';
 import 'package:app2/featchers/Booking%20Salon%20(%20Within%20House%20)/presentation/widget/W_House_Service_Card_With_Add_Button_Widget.dart';
 import 'package:app2/featchers/Home/data/model/dummy_data.dart';
@@ -58,7 +59,7 @@ class WHouseDisplayOtherServicesPage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         TextButtonWhiteWidget(
-                          width: 183,
+                          width: 160,
                           hight: 55,
                           label: "Continue Shopping",
                           borderColor: const Color(0xffE3E3E3),
@@ -70,7 +71,7 @@ class WHouseDisplayOtherServicesPage extends StatelessWidget {
                           },
                         ),
                         TextButtonWhiteWidget(
-                          width: 183,
+                          width: 160,
                           hight: 55,
                           label: "Confirm Booking And Pay",
                           borderColor: const Color(0xffE3E3E3),
@@ -79,12 +80,13 @@ class WHouseDisplayOtherServicesPage extends StatelessWidget {
                           buttonColor: const Color(0xff3E0C0C),
                           onPressed: () {
                             log("Confirm Booking And Pay");
-                            // Navigator.push(
-                            //   context,
-                            //   MaterialPageRoute(
-                            //     builder: (context) => WHouseBookingConfirmationPage(),
-                            //   ),
-                            // );
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) =>
+                                    WHouseBookingConfirmationPage(),
+                              ),
+                            );
                           },
                         ),
                       ],

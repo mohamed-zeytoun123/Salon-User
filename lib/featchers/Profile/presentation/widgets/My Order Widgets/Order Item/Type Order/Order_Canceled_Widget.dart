@@ -62,7 +62,7 @@ class OrderCanceledWidget extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   TextButtonWhiteWidget(
-                    width: 160,
+                    width: 130,
                     hight: 32,
                     onPressed: () {
                       log("Delete");
@@ -73,7 +73,7 @@ class OrderCanceledWidget extends StatelessWidget {
                     borderColor: ColorsFaces.colorSecondary,
                   ),
                   TextButtonWhiteWidget(
-                    width: 160,
+                    width: 130,
                     hight: 32,
                     onPressed: () {
                       log("View");

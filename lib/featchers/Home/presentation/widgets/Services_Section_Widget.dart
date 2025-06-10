@@ -27,38 +27,41 @@ class _ServicesSectionWidgetState extends State<ServicesSectionWidget> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      spacing: 10,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        CustomHeaderWidget(
-          title: "Our Services",
-          onTap: () {
-            Navigator.push(
-                context,
-                MaterialPageRoute(
-                    builder: (context) => ServicesCategoryPage()));
-          },
-          titleStyle:
-              FontsStyle.c24w400Meditative.copyWith(color: Color(0xff4A172E)),
-        ),
-        BlocBuilder<HomeCubit, HomeState>(builder: (context, state) {
-          if (state.isLoadingService) {
-            return shimmerSliderPlaceholder();
-          }
-          if (state.errorService != null) {
-            return Center(child: Text(state.errorService!.message));
-          }
-          if (state.serviceList == null || state.serviceList!.isEmpty) {
-            return const Center(child: Text("No Services Available"));
-          } else {
-            return HorizontalImageGridWidget(
-              widthForm: double.infinity,
-              llistServices: state.serviceList!,
-            );
-          }
-        }),
-      ],
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 15),
+      child: Column(
+        spacing: 10,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          CustomHeaderWidget(
+            title: "Our Services",
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => ServicesCategoryPage()));
+            },
+            titleStyle:
+                FontsStyle.c24w400Meditative.copyWith(color: Color(0xff4A172E)),
+          ),
+          BlocBuilder<HomeCubit, HomeState>(builder: (context, state) {
+            if (state.isLoadingService) {
+              return shimmerSliderPlaceholder();
+            }
+            if (state.errorService != null) {
+              return Center(child: Text(state.errorService!.message));
+            }
+            if (state.serviceList == null || state.serviceList!.isEmpty) {
+              return const Center(child: Text("No Services Available"));
+            } else {
+              return HorizontalImageGridWidget(
+                widthForm: double.infinity,
+                llistServices: state.serviceList!,
+              );
+            }
+          }),
+        ],
+      ),
     );
   }
 }

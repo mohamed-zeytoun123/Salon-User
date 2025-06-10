@@ -70,7 +70,7 @@ class WHouseBookingAnAppointmentProductPage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     TextButtonWhiteWidget(
-                      width: 183,
+                      width: 160,
                       hight: 55,
                       label: "Continue Shopping",
                       borderColor: Color(0xffE3E3E3),
@@ -83,7 +83,7 @@ class WHouseBookingAnAppointmentProductPage extends StatelessWidget {
                       },
                     ),
                     TextButtonWhiteWidget(
-                      width: 183,
+                      width: 160,
                       hight: 55,
                       label: "Confirm Booking And Pay",
                       borderColor: Color(0xffE3E3E3),

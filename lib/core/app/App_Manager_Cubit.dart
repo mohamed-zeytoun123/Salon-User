@@ -2,8 +2,9 @@
 
 import 'dart:convert';
 import 'dart:developer';
+import 'dart:ui';
 import 'package:app2/core/app/app_manager_state.dart';
-import 'package:app2/core/constant/Cache_Keys.dart';
+import 'package:app2/core/constant/cache_keys.dart';
 import 'package:app2/featchers/auth/data/models/auth_response_model.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
@@ -18,13 +19,23 @@ class AppManagerCubit extends Cubit<AppManagerState> {
   }
 
   //!________ init App ______________________________________________________________________________
+
   initApp() async {
     log('init app');
 
-    final AuthResponseModel? authDataFromCache = await _getUserData();
+    final storage = FlutterSecureStorage();
+    final langCode = await storage.read(key: CacheKeys.appLanguage);
+    final savedLocale = langCode != null ? Locale(langCode) : null;
+
+    final authDataFromCache = await _getUserData();
+
+    emit(state.copyWith(
+      authResponseModel: authDataFromCache,
+      appLocale: savedLocale,
+    ));
+
     if (authDataFromCache != null) {
-      emit(state.copyWith(authResponseModel: authDataFromCache));
-      log('user data found ');
+      log('user data found');
     }
   }
 
@@ -49,11 +60,32 @@ class AppManagerCubit extends Cubit<AppManagerState> {
     return null;
   }
 
-  //!______________________________________________________________________________________
+  //!___________change Location___________________________________________________________________________
   changeLocation(String newLocation) {
     emit(state.copyWith(myLocation: newLocation));
   }
-  //!______________________________________________________________________________________
-  //!______________________________________________________________________________________
+
+  //!___________change Language___________________________________________________________________________
+  changeLanguage(Locale newLocale) async {
+    final storage = FlutterSecureStorage();
+    await storage.write(
+        key: CacheKeys.appLanguage, value: newLocale.languageCode);
+    emit(state.copyWith(appLocale: newLocale));
+  }
+
+  //!____________logout__________________________________________________________________________
+  logout() async {
+    final storage = FlutterSecureStorage();
+    await storage.delete(key: CacheKeys.userData);
+    await storage.delete(key: CacheKeys.appLanguage);
+
+    emit(state.copyWith(
+      authResponseModel: null,
+      appLocale: null,
+      myLocation: null,
+    ));
+    log('User logged out and data cleared');
+  }
+
   //!______________________________________________________________________________________
 }

@@ -162,7 +162,7 @@ class _WHouseBookingConfirmationPageState
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     TextButtonWhiteWidget(
-                      width: 183,
+                      width: 160,
                       hight: 55,
                       label: "Continue Shopping",
                       borderColor: const Color(0xffE3E3E3),
@@ -170,16 +170,16 @@ class _WHouseBookingConfirmationPageState
                           .copyWith(color: Color(0xff57597E)),
                       buttonColor: ColorsFaces.colorThird,
                       onPressed: () {
-                        // Navigator.push(
-                        //     context,
-                        //     MaterialPageRoute(
-                        //         builder: (context) =>
-                        //             WHouseDisplayOtherServicesPage()));
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    WHouseDisplayOtherServicesPage()));
                         log("continue shopping");
                       },
                     ),
                     TextButtonWhiteWidget(
-                      width: 183,
+                      width: 160,
                       hight: 55,
                       label: "Continue",
                       borderColor: const Color(0xffE3E3E3),

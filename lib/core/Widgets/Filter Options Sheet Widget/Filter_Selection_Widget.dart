@@ -15,49 +15,51 @@ class FilterSelectionWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 780,
+      height: 730,
       width: double.infinity,
       padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
       decoration: BoxDecoration(
         color: ColorsFaces.colorThird,
         borderRadius: BorderRadius.circular(36),
       ),
-      child: Column(
-        spacing: 10,
-        mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text(
-                "Filteration",
-                style: FontsStyle.white24w400Meditative
-                    .copyWith(color: ColorsFaces.colorSecondary),
-              ),
-              InkWell(
-                onTap: () {
-                  Navigator.pop(context);
-                },
-                child: Icon(
-                  Icons.cancel_outlined,
-                  color: Color(0xff898A8D),
+      child: SingleChildScrollView(
+        child: Column(
+          spacing: 10,
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  "Filteration",
+                  style: FontsStyle.white24w400Meditative
+                      .copyWith(color: ColorsFaces.colorSecondary),
                 ),
-              ),
-            ],
-          ),
-          Text(
-            "Gender",
-            style: FontsStyle.white14w600NunitoSans
-                .copyWith(color: Color(0xff000000)),
-          ),
-          ServiceOptionSelectorWidget(
-            onSelectionChanged: (S) {
-              log(S);
-            },
-          ),
-          FilterOptionsWidget()
-        ],
+                InkWell(
+                  onTap: () {
+                    Navigator.pop(context);
+                  },
+                  child: Icon(
+                    Icons.cancel_outlined,
+                    color: Color(0xff898A8D),
+                  ),
+                ),
+              ],
+            ),
+            Text(
+              "Gender",
+              style: FontsStyle.white14w600NunitoSans
+                  .copyWith(color: Color(0xff000000)),
+            ),
+            ServiceOptionSelectorWidget(
+              onSelectionChanged: (S) {
+                log(S);
+              },
+            ),
+            FilterOptionsWidget()
+          ],
+        ),
       ),
     );
   }

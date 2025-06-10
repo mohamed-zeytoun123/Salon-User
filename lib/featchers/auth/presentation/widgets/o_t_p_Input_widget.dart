@@ -25,7 +25,7 @@ class _OTPInputWidgetState extends State<OTPInputWidget> {
             child: Container(
               width: 56,
               height: 56,
-              margin: EdgeInsets.symmetric(horizontal: 5),
+              margin: EdgeInsets.symmetric(horizontal: 3),
               decoration: BoxDecoration(
                 color: isFilled[index] ? Color(0xffF1F1F1) : Colors.white,
                 border: Border.all(color: Color(0xff979797), width: 2),

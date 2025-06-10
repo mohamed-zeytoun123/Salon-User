@@ -30,7 +30,7 @@ class _SelectableButtonWidgetState extends State<SelectableButtonWidget> {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         TextButtonWhiteWidget(
-          width: 185,
+          width: 160,
           hight: 46,
           label: "Within the house",
           borderColor: const Color(0xffE3E3E3),
@@ -54,7 +54,7 @@ class _SelectableButtonWidgetState extends State<SelectableButtonWidget> {
           },
         ),
         TextButtonWhiteWidget(
-          width: 185,
+          width: 160,
           hight: 46,
           label: "Within the salon",
           borderColor: const Color(0xffE3E3E3),

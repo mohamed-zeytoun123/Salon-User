@@ -28,7 +28,7 @@ class HeaderPointsDisplayWidget extends StatelessWidget {
           stops: [0.4, 0.5, .8],
         ),
       ),
-      padding: EdgeInsets.symmetric(horizontal: 15),
+      padding: EdgeInsets.symmetric(horizontal: 10),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -44,7 +44,7 @@ class HeaderPointsDisplayWidget extends StatelessWidget {
           Text(
             "You have 10 points worth",
             style:
-                FontsStyle.whit20w400.copyWith(color: ColorsFaces.colorThird),
+                FontsStyle.whid18w500.copyWith(color: ColorsFaces.colorThird),
           ),
           Text('\$70',
               style: FontsStyle.white26ww700.copyWith(

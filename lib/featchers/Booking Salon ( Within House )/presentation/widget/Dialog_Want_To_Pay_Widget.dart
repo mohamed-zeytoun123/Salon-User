@@ -70,7 +70,6 @@ class _DialogWantToPayWidgetState extends State<DialogWantToPayWidget> {
                   buttonColor: ColorsFaces.colorThird,
                   onPressed: () {
                     log("Wallet");
-
                     setState(() {
                       isdisplaywidget = false;
                     });
@@ -156,7 +155,7 @@ class _DialogWantToPayWidgetState extends State<DialogWantToPayWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     TextButtonWhiteWidget(
-                      width: 140,
+                      width: 115,
                       hight: 45,
                       label: "Cancel",
                       borderColor: const Color.fromARGB(132, 227, 227, 227),
@@ -169,7 +168,7 @@ class _DialogWantToPayWidgetState extends State<DialogWantToPayWidget> {
                       },
                     ),
                     TextButtonWhiteWidget(
-                      width: 140,
+                      width: 115,
                       hight: 45,
                       label: "Payment",
                       borderColor: const Color(0xffE3E3E3),
